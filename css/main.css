@@ -424,7 +424,7 @@ section.contact p{
 }
 
 @media screen and (max-width: 640px) {
-	.container {
+	.top_bar, .container {
 		min-width: 530px;
 	}
 
