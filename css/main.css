@@ -41,6 +41,7 @@ header{
 	top: -4px;
 	position: relative;
 	clear:both;
+	width: 100vw;
 }
 
 .logo{
@@ -414,7 +415,7 @@ section.contact p{
 	}
 
 	.top_bar, .container{
-		min-width: 525px;
+		min-width: 580px;
 	}
 
 	article p{
@@ -423,6 +424,10 @@ section.contact p{
 }
 
 @media screen and (max-width: 640px) {
+	.container {
+		min-width: 530px;
+	}
+
 	article {
 		text-align: center;
 		width: 100%;
