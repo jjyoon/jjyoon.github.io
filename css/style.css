@@ -231,6 +231,7 @@ footer li{
 
 	form {
 		width: 350px;
+
 	}
 
 
@@ -256,6 +257,15 @@ footer li{
 
 	.content{
 		width:100%;
+	}
+
+	form {
+		width: 100%;
+		
+	}
+
+	form input[placeholder] {
+		font-size: 14px
 	}
 
 	aside.container {
