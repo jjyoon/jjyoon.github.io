@@ -33,7 +33,7 @@ section {
     font-size: 8em;
     text-align: center;
     color: #fff;
-    padding-top: 200px; }
+    padding-top: 25vh; }
   section h2 {
     font-size: 3em;
     color: #fff;
@@ -66,5 +66,9 @@ section {
   width: 200px;
   background-color: #fff;
   margin: 30px auto; }
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 10px; } }
 
 /*# sourceMappingURL=main.css.map */
