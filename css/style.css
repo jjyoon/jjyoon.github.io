@@ -1395,6 +1395,15 @@ footer p {
     .screens>img {
         height: 400px;
     }
+    .exit_contain {
+        margin-top: 20px;
+    }
+    .exit {
+        height: 50px;
+    }
+    .exit:after {
+        height: 50px;
+    }
     .body .content p {
         width: 550px;
     }
@@ -1406,15 +1415,6 @@ footer p {
 @media screen and (max-width: 850px) {
     .description .parallax img {
         width: 140%;
-    }
-    .exit_contain {
-        margin-top: 20px;
-    }
-    .exit {
-        height: 50px;
-    }
-    .exit:after {
-        height: 50px;
     }
     .body header figure img {
         width: 120vw;
