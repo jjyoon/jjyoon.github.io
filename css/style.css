@@ -1123,6 +1123,7 @@ figure a {
     text-align: center;
     margin: 30px auto;
     cursor: pointer;
+    margin-bottom: 100px;
 }
 
 .return img {
