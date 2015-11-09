@@ -56,7 +56,7 @@ $(function () {
             $(".work_overlay").fadeIn();
             $(bodyNum).fadeIn();
             $("section, body>header").addClass("blur");
-            $(".bodyscroll").addClass("noscroll");
+            $("body").addClass("noscroll");
             $(".work_overlay").scrollTop(0);
         }, 500);
 
@@ -67,7 +67,7 @@ $(function () {
     function closeProj() {
         $("section, header").removeClass("blur");
         $(".work_overlay, .body").fadeOut();
-        $(".bodyscroll").removeClass("noscroll");
+        $("body").removeClass("noscroll");
     }
 
     $(document).keyup(function (e) {
