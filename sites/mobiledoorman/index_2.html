@@ -1,0 +1,188 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>DeskLogic_2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top_bar clearfix wrapper">
+            <div class="logo">DeskLogic</div>
+            <ul>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </div>
+
+      <i class="fa fa-bars"></i>
+        <nav>
+            <div class="wrapper">
+                <ul>
+
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Programming</a></li>
+                    <li class="selected_tri"><a href="#">Recommendation</a>
+                        <nav class="rec_nest_small wrapper">
+                            <ul>
+                                <li><a href="index.html">Your Space</a></li>
+                                <li class="selected_line"><a href="index_2.html">Budget/Time</a></li>
+                                <li><a href="index_3.html">Headcount</a></li>
+                                <li><a href="index_4.html">Space Types</a></li>
+                                <li><a href="index_5.html">Filling the Spaces</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li><a href="#">Adjust</a></li>
+                    <li class="checkout"><a href="#">Checkout</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="rec_nest wrapper">
+            <ul>
+                <li><a href="index.html">Your Space</a></li>
+                <li class="selected_line"><a href="index_2.html">Budget/Time</a></li>
+                <li><a href="index_3.html">Headcount</a></li>
+                <li><a href="index_4.html">Space Types</a></li>
+                <li><a href="index_5.html">Filling the Spaces</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="budget_time wrapper">
+        <h2>Budget and Timeframe<i class="fa fa-list-alt"></i></h2>
+        <aside class="right sum_inv right_hide">
+            <h4>Summary + Inventory</h4>
+            <section>
+                <h4>Your Space<i class="fa fa-chevron-down"></i></h4>
+                <div class="aside_content hide">
+                    <h4>Your Space</h4>
+                    <ul>
+                        <li>Your office is in Chicago</li>
+                        <li>Chicago office regulations for reference: </li>
+                    </ul>
+
+                    <h4>Space Size</h4>
+                    <ul>
+                        <li>Usable space: 1,500 sq ft</li>
+                        <li>After old furniture, 1,200 sq ft for new furniture</li>
+                    </ul>
+
+                    <h4>Old Furniture</h4>
+                    <ul>
+                        <li>You're bringing 300 sq ft of old furniture</li>
+                    </ul>
+
+                </div>
+
+            </section>
+            <section>
+                <h4>Budget/Time<i class="fa fa-chevron-down"></i></h4>
+                <div class="aside_content hide">
+                    <h4>Budget</h4>
+                    <ul>
+                        <li>Range is $0-$20,000</li>
+                        <li>Equals approx. $16 per sq ft of new furniture</li>
+                    </ul>
+
+                    <h4>Time</h4>
+                    <ul>
+                        <li>New furniture will arrive on Wed, 08/12/2015</li>
+                        <li>We will flag any furniture that cannot arrive by that date.</li>
+                    </ul>
+                </div>
+
+            </section>
+            <section>
+                <h4>Headcount<i class="fa fa-chevron-down"></i></h4>
+                <div class="aside_content hide">
+                    <h4>Permanent Staff</h4>
+                    <ul>
+                        <li>30 staff need workstations</li>
+                        <li>Of those, 25 are always there and 5 travel (so their space could be shared)</li>
+                    </ul>
+
+                    <h4>Visiting/Interns</h4>
+                    <ul>
+                        <li>Up to 6 interns/visiting staff at any given time</li>
+                    </ul>
+
+                    <h4>Growth</h4>
+                    <ul>
+                        <li>3 additional staff in the next 1-2 years.</li>
+                    </ul>
+
+                    <h4>Shopping List</h4>
+                    <ul>
+                        <li>Workstations for 32 people</li>
+                        <li>3 portable stations that can be stored when not needed</li>
+                        <li>With old furniture, you need to buy workstations for 28 people and 3 portable stations</li>
+                    </ul>
+
+                </div>
+            </section>
+            <section>
+                <h4>Space Types<i class="fa fa-chevron-down"></i></h4>
+                <div class="aside_content hide">
+                    <h4>Open Workstations</h4>
+                    <ul>
+                        <li>24 ppl in 3 open benching stations</li>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h4>Filling the Spaces<i class="fa fa-chevron-down"></i></h4>
+                <div class="aside_content hide">
+                    <h4></h4>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+            </section>
+        </aside>
+
+
+        <div class="block box_highlight">
+            <h3>Budget Range</h3>
+            <form action="" class="budget_range">
+                <div>
+                    <span>High $</span>
+                    <input type="number" placeholder="Enter amount">
+                </div>
+                <div>
+                    <span>Low $</span>
+                    <input type="number" placeholder="Enter amount">
+                </div>
+            </form>
+        </div>
+        <div class="block">
+            <h3>When do you want your furniture to arrive?</h3>
+            <div class="question">
+                <form action="">
+                    <input type="date" placeholder="MM/DD/YYYY">
+                </form>
+            </div>
+        </div>
+        <div class="bottom_buttons">
+            <a href="#" class="save_exit">Save and Exit</a>
+            <a href="#" class="next">Next</a>
+        </div>
+    </section>
+    <footer></footer>
+    
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+
+</html>
