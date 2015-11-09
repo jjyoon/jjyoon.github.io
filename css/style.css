@@ -199,6 +199,7 @@ p {
 
 .noscroll {
     overflow: hidden;
+    position: relative;
 }
 
 header {
