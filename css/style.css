@@ -408,7 +408,8 @@ nav {
 }
 
 .nav_expand ul li {
-    height: 25%;
+    height: 22.5%;
+    min-height: 100px;
 }
 
 .nav_expand ul li a {
