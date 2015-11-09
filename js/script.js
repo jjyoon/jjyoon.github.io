@@ -28,6 +28,7 @@ $(function () {
 
 
     $(".button").click(function (e) {
+        e.preventDefault();
         var $pieceContainer = $(this).closest(".piece_container");
         var $piece = $(this).closest(".piece");
         var topSpace = $(window).height() * 0.025;
