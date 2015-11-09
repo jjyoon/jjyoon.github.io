@@ -125,7 +125,7 @@ $(function () {
         console.log(nextNum, imgLength);
     });
 
-    $('nav a').click(function (e) {
+    $('nav a, .explore').click(function (e) {
         e.preventDefault();
         var navHeight = $('nav').height();
         var $section = $(this).attr("href");
