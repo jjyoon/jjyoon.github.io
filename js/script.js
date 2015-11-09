@@ -1,10 +1,12 @@
-$(function () {
-    
-    setTimeout(function(){
+window.onload = function() {
+  setTimeout(function(){
        $(".loader").fadeOut();
         $('svg').attr("class", "mylogo loadout");
         $('body').removeClass('noscroll');
     }, 2300);
+};
+
+$(function () {
 
 
     $(".computer").mousemove(function (e) {
