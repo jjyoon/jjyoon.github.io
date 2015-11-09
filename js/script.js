@@ -122,7 +122,7 @@ $(function () {
         console.log(nextNum, imgLength);
     });
 
-    $('a').click(function (e) {
+    $('nav a').click(function (e) {
         e.preventDefault();
         var navHeight = $('nav').height();
         var $section = $(this).attr("href");
