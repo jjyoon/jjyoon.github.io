@@ -623,7 +623,7 @@ section h2 {
     font-size: 2em;
     margin: 20px;
     line-height: 1.5em;
-    font-family: Lora;
+    font-family: 'Lora';
 }
 
 .parallax-container {
@@ -866,7 +866,7 @@ section h2 {
     width: 700px;
     line-height: 1.5em;
     margin: 30px auto;
-    font-family: Lora;
+    font-family: 'Lora';
     display: block;
 }
 
@@ -1019,7 +1019,7 @@ section h2 {
 .slideshow figure figcaption,
 figcaption {
     text-align: center;
-    font-family: Lora;
+    font-family: 'Lora';
     font-style: italic;
     font-size: 1.8em;
     margin: 30px auto;
@@ -1212,7 +1212,7 @@ figure a {
 }
 
 .block_content p {
-    font-family: Lora;
+    font-family: 'Lora';
     font-size: 1.4em;
     margin-top: 10px;
     line-height: 1.5em;
@@ -1273,14 +1273,14 @@ figure a {
 }
 
 .contact p {
-    font-family: Lora;
+    font-family: 'Lora';
     color: rgba(255, 255, 255, 0.8);
 }
 
 .contact a {
     color: #f3556f;
     text-transform: none;
-    font-family: Lora;
+    font-family: 'Lora';
 }
 
 .contact i {
