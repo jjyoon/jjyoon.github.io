@@ -4,7 +4,7 @@
 
 html {
     font-size: 16px;
-    font-family: Brandon Grotesque;
+    font-family: 'BrandonGrotesque';
 }
 
 body {
@@ -341,7 +341,7 @@ nav {
 
 .nav_text a {
     font-size: 1.6em;
-    font-family: Brandon Grotesque;
+    font-family: 'BrandonGrotesque';
     letter-spacing: 3px;
 }
 
