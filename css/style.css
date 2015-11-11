@@ -925,6 +925,7 @@ section h2 {
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     opacity: 0;
+    animation: exit 0.5s 0.5s forwards;
 }
 
 .exit:after {
@@ -947,24 +948,24 @@ section h2 {
 @keyframes exit {
     0% {
         opacity: 0;
-        -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-        -o-transform: scale(0);
-        transform: scale(0);
+        -webkit-transform: rotate(45deg) scale(0);
+        -ms-transform: rotate(45deg) scale(0);
+        -o-transform: rotate(45deg) scale(0);
+        transform: rotate(45deg) scale(0);
+    }
+    85% {
+        opacity: 1;
+        -webkit-transform: rotate(45deg) scale(1.3);
+        -ms-transform: rotate(45deg) scale(1.3);
+        -o-transform: rotate(45deg) scale(1.3);
+        transform: rotate(45deg) scale(1.3);
     }
     100% {
         opacity: 1;
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        -o-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-        -o-transform: scale(1);
-        transform: scale(1);
+        -webkit-transform: rotate(45deg) scale(1);
+        -ms-transform: rotate(45deg) scale(1);
+        -o-transform: rotate(45deg) scale(1);
+        transform: rotate(45deg) scale(1);
     }
 }
 
