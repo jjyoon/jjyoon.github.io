@@ -91,7 +91,7 @@ $(function () {
     })
 
     $(".right_arrow").click(function () {
-        var $img = $(this).siblings("ul");
+        var $img = $(this).parent().siblings("ul");
         var imgLength = $img.children().length - 1; // for index
         var $imgActive = $img.children(".active");
         var imgNum = $imgActive.index();
@@ -108,7 +108,7 @@ $(function () {
     });
 
     $(".left_arrow").click(function () {
-        var $img = $(this).siblings("ul");
+        var $img = $(this).parent().siblings("ul");
         var imgLength = $img.children().length - 1; // for index
         var $imgActive = $img.children(".active");
         var imgNum = $imgActive.index();

@@ -1188,6 +1188,7 @@ figure a {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     width: auto;
+    cursor: pointer;
 }
 
 .left_arrow {
