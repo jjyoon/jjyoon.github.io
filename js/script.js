@@ -8,7 +8,6 @@ window.onload = function() {
 
 $(function () {
 
-
     $(".computer").mousemove(function (e) {
         var windowWidth = $(window).width();
         var contentWidth = $(".macbook_svg").width();
@@ -29,7 +28,7 @@ $(function () {
 
 
 
-    $(".button").click(function (e) {
+    $(".piece .button").click(function (e) {
         e.preventDefault();
         var $pieceContainer = $(this).closest(".piece_container");
         var $piece = $(this).closest(".piece");
