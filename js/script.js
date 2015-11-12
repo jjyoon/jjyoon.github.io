@@ -31,9 +31,9 @@ $(function () {
     $(".piece .button").click(function (e) {
         e.preventDefault();
 
-        if (history.pushState) {
-            history.pushState(null, null, $(this).attr('data'));
-        }
+//        if (history.pushState) {
+//            history.pushState(null, null, $(this).attr('data'));
+//        }
 
 
         var $pieceContainer = $(this).closest(".piece_container");
@@ -77,15 +77,15 @@ $(function () {
         $(".work_overlay, .body").fadeOut();
         $("body").removeClass("noscroll");
 
-        if (window.history && window.history.pushState) {
-
-            window.history.pushState('forward', null, "index.html");
-
-            $(window).on('popstate', function () {
-                closeProj();
-            });
-
-        }
+//        if (window.history && window.history.pushState) {
+//
+//            window.history.pushState('forward', null, null);
+//
+//            $(window).on('popstate', function () {
+//                closeProj();
+//            });
+//
+//        }
 
     }
 
@@ -107,15 +107,15 @@ $(function () {
         closeProj();
     });
 
-    if (window.history && window.history.pushState) {
-
-        window.history.pushState('forward', null, null);
-
-        $(window).on('popstate', function () {
-            closeProj();
-        });
-
-    }
+//    if (window.history && window.history.pushState) {
+//
+//        window.history.pushState('forward', null, null);
+//
+//        $(window).on('popstate', function () {
+//            closeProj();
+//        });
+//
+//    }
 
     $(".right_arrow").click(function () {
         var $img = $(this).parent().siblings("ul");
