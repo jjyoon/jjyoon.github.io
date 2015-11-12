@@ -1,6 +1,6 @@
-window.onload = function() {
-  setTimeout(function(){
-       $(".loader").fadeOut();
+window.onload = function () {
+    setTimeout(function () {
+        $(".loader").fadeOut();
         $('svg').attr("class", "mylogo loadout");
         $('body').removeClass('noscroll');
     }, 2300);
@@ -30,6 +30,12 @@ $(function () {
 
     $(".piece .button").click(function (e) {
         e.preventDefault();
+
+        if (history.pushState) {
+            history.pushState(null, null, $(this).attr('data'));
+        }
+
+
         var $pieceContainer = $(this).closest(".piece_container");
         var $piece = $(this).closest(".piece");
         var topSpace = $(window).height() * 0.025;
@@ -70,6 +76,17 @@ $(function () {
         $("section, header").removeClass("blur");
         $(".work_overlay, .body").fadeOut();
         $("body").removeClass("noscroll");
+
+        if (window.history && window.history.pushState) {
+
+            window.history.pushState('forward', null, "index.html");
+
+            $(window).on('popstate', function () {
+                closeProj();
+            });
+
+        }
+
     }
 
     $(document).keyup(function (e) {
@@ -88,7 +105,17 @@ $(function () {
 
     $(".exit_contain, .return").click(function () {
         closeProj();
-    })
+    });
+
+    if (window.history && window.history.pushState) {
+
+        window.history.pushState('forward', null, null);
+
+        $(window).on('popstate', function () {
+            closeProj();
+        });
+
+    }
 
     $(".right_arrow").click(function () {
         var $img = $(this).parent().siblings("ul");
@@ -135,14 +162,14 @@ $(function () {
             scrollTop: newScrollTop
         });
     });
-    
-    $('.nav_bars').click(function(){
+
+    $('.nav_bars').click(function () {
         $(this).toggleClass('close');
         $('.nav_expand').fadeToggle();
     });
-    
-    $('.nav_expand a').click(function(){
-       $('.nav_bars').removeClass('close');
+
+    $('.nav_expand a').click(function () {
+        $('.nav_bars').removeClass('close');
         $('.nav_expand').fadeOut();
     });
 
