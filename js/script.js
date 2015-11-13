@@ -8,6 +8,7 @@ window.onload = function () {
 
 $(function () {
 
+
     $(".computer").mousemove(function (e) {
         var windowWidth = $(window).width();
         var contentWidth = $(".macbook_svg").width();
@@ -68,24 +69,15 @@ $(function () {
             $(".work_overlay").scrollTop(0);
         }, 500);
 
-
-
     });
+
 
     function closeProj() {
         $("section, header").removeClass("blur");
         $(".work_overlay, .body").fadeOut();
         $("body").removeClass("noscroll");
 
-//        if (window.history && window.history.pushState) {
-//
-//            window.history.pushState('forward', null, null);
-//
-//            $(window).on('popstate', function () {
-//                closeProj();
-//            });
-//
-//        }
+//        window.history.back();
 
     }
 
@@ -112,10 +104,15 @@ $(function () {
 //        window.history.pushState('forward', null, null);
 //
 //        $(window).on('popstate', function () {
-//            closeProj();
+//            console.log('hi');
 //        });
 //
 //    }
+    
+    $(window).resize(function(){
+       var windowHeight = $(this).height();
+        $('.work_overlay, .body').height(windowHeight + 60); 
+    });
 
     $(".right_arrow").click(function () {
         var $img = $(this).parent().siblings("ul");
