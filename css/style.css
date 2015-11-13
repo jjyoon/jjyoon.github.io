@@ -806,6 +806,7 @@ section h2 {
     display: none;
     height: 100%;
     width: 100%;
+    -webkit-overflow-scrolling: touch;
 }
 
 .mobile_show {
@@ -1737,6 +1738,12 @@ footer p {
     .right_arrow {
         top: 175px;
         width: 30px;
+    }
+    .left_arrow {
+        left: -50px;
+    }
+    .right_arrow {
+        right: -50px;
     }
     .timeline:before {
         left: 37.5px;
