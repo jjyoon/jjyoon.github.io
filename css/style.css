@@ -800,6 +800,7 @@ section h2 {
     background: rgba(0, 0, 0, 0.85);
     display: none;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .body {
@@ -1079,7 +1080,6 @@ section h2 {
 .slideshow li {
     height: 550px;
     width: auto;
-    background-color: white;
     display: inline-block;
     margin: 0 50px;
 }
@@ -1669,6 +1669,9 @@ footer p {
     body {
         font-size: 55%;
     }
+    .about h2 {
+        margin: 100px 0 50px 0;
+    }
     section h2 {
         margin: 50px;
     }
@@ -1722,6 +1725,24 @@ footer p {
     }
     .img_normal {
         width: 320px;
+    }
+    .slideshow_contain{
+        overflow: auto;
+    }
+    .slideshow{
+        white-space: normal;
+    }
+    .slideshow li{
+        height: auto;
+        width: 300px;
+    }
+    .slideshow li figure {
+        height: auto;
+        width: 100%;
+    }
+    .slideshow li figure img {
+        height: auto;
+        width: 100%;
     }
     .phone_svg {
         height: 350px;
