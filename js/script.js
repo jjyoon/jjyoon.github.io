@@ -111,7 +111,7 @@ $(function () {
     
     $(window).resize(function(){
        var windowHeight = $(this).height();
-        $('.work_overlay, .body').height(windowHeight + 60); 
+        $('.work_overlay, .body').height(windowHeight + 61); 
     });
 
     $(".right_arrow").click(function () {
