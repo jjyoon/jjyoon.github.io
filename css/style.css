@@ -1181,18 +1181,18 @@ figure a {
 .left_arrow,
 .right_arrow {
     position: absolute;
-    font-size: 7.5em;
     top: 250px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: auto;
+    width: 50px;
+    opacity: 0.8;
     cursor: pointer;
 }
 
 .left_arrow {
-    left: -50px;
+    left: -75px;
 }
 
 /*
@@ -1213,7 +1213,11 @@ figure a {
 */
 
 .right_arrow {
-    right: -50px;
+    right: -75px;
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+    transform: translateY(-50%) rotate(180deg);
 }
 
 .return {
@@ -1732,12 +1736,7 @@ footer p {
     .left_arrow,
     .right_arrow {
         top: 175px;
-    }
-    .left_arrow {
-        padding-right: 110px;
-    }
-    .right_arrow {
-        padding-left: 110px;
+        width: 30px;
     }
     .timeline:before {
         left: 37.5px;
