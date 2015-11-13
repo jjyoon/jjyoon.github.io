@@ -794,8 +794,10 @@ section h2 {
     width: 100vw;
     position: fixed;
     z-index: 15;
-    left: 0;
     top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     color: rgba(255, 255, 255, 0.8);
     background: rgba(0, 0, 0, 0.85);
     display: none;
@@ -1134,6 +1136,7 @@ figure a {
     position: relative;
     display: inline-block;
 }
+
 .phone_svg img {
     height: 100%;
 }
@@ -1195,6 +1198,7 @@ figure a {
 .left_arrow {
     left: -75px;
 }
+
 
 /*
 .left_arrow:after, .right_arrow:after {
@@ -1726,13 +1730,13 @@ footer p {
     .img_normal {
         width: 320px;
     }
-    .slideshow_contain{
+    .slideshow_contain {
         overflow: auto;
     }
-    .slideshow{
+    .slideshow {
         white-space: normal;
     }
-    .slideshow li{
+    .slideshow li {
         height: auto;
         width: 300px;
     }
