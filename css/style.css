@@ -1266,8 +1266,8 @@ figure a {
 }
 
 .block_image {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 75px;
     overflow: hidden;
     position: absolute;
@@ -1282,6 +1282,15 @@ figure a {
 .block_image img {
     width: 100%;
     background-color: #fff;
+    padding: 15px;
+}
+
+.block:first-child img {
+    background: #4F2A84;
+}
+
+.block:nth-child(2) img {
+    background: #5A2484;
 }
 
 .block_content {
