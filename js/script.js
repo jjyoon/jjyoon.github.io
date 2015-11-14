@@ -32,9 +32,9 @@ $(function () {
     $(".piece .button").click(function (e) {
         e.preventDefault();
 
-//        if (history.pushState) {
-//            history.pushState(null, null, $(this).attr('data'));
-//        }
+        //        if (history.pushState) {
+        //            history.pushState(null, null, $(this).attr('data'));
+        //        }
 
 
         var $pieceContainer = $(this).closest(".piece_container");
@@ -77,7 +77,7 @@ $(function () {
         $(".work_overlay, .body").fadeOut();
         $("body").removeClass("noscroll");
 
-//        window.history.back();
+        //        window.history.back();
 
     }
 
@@ -99,19 +99,27 @@ $(function () {
         closeProj();
     });
 
-//    if (window.history && window.history.pushState) {
-//
-//        window.history.pushState('forward', null, null);
-//
-//        $(window).on('popstate', function () {
-//            console.log('hi');
-//        });
-//
-//    }
-    
-    $(window).resize(function(){
-       var windowHeight = $(this).height();
-        $('.work_overlay, .body').height(windowHeight + 60); 
+    //    if (window.history && window.history.pushState) {
+    //
+    //        window.history.pushState('forward', null, null);
+    //
+    //        $(window).on('popstate', function () {
+    //            console.log('hi');
+    //        });
+    //
+    //    }
+
+    $(window).resize(function () {
+        var windowHeight = $(this).height();
+
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+
+        if (isChrome) {
+            $('.work_overlay, .body').height(windowHeight + 60);
+        }
+        //if (isSafari) alert("You are using Safari!");
+        
     });
 
     $(".right_arrow").click(function () {
