@@ -28,7 +28,7 @@ $(function () {
     $('.parallax').parallax();
 
     function resize() {
-        var windowHeight = $(this).height();
+        var windowHeight = $(window).height();
 
         var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
         var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
@@ -78,7 +78,7 @@ $(function () {
             $(".work_overlay").scrollTop(0);
         }, 500);
         
-        resize();
+        resize;
 
     });
 
