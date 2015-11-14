@@ -76,9 +76,10 @@ $(function () {
             $("section, body>header").addClass("blur");
             $("body").addClass("noscroll");
             $(".work_overlay").scrollTop(0);
+            resize();
         }, 500);
         
-        resize;
+        
 
     });
 
