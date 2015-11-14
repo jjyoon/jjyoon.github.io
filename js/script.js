@@ -116,7 +116,7 @@ $(function () {
         var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
 
         if (isChrome) {
-            $('.work_overlay, .body').height(windowHeight + 60);
+            $('.work_overlay').height(windowHeight + 60);
         }
         //if (isSafari) alert("You are using Safari!");
         
