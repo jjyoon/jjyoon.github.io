@@ -27,7 +27,16 @@ $(function () {
 
     $('.parallax').parallax();
 
+    function resize() {
+        var windowHeight = $(this).height();
 
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+
+        if (isChrome) {
+            $('.work_overlay').height(windowHeight + 60);
+        }
+    }
 
     $(".piece .button").click(function (e) {
         e.preventDefault();
@@ -68,6 +77,8 @@ $(function () {
             $("body").addClass("noscroll");
             $(".work_overlay").scrollTop(0);
         }, 500);
+        
+        resize();
 
     });
 
@@ -109,17 +120,11 @@ $(function () {
     //
     //    }
 
+
     $(window).resize(function () {
-        var windowHeight = $(this).height();
-
-        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-        var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
-
-        if (isChrome) {
-            $('.work_overlay').height(windowHeight + 60);
-        }
+        resize();
         //if (isSafari) alert("You are using Safari!");
-        
+
     });
 
     $(".right_arrow").click(function () {
