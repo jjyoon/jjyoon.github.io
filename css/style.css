@@ -1785,6 +1785,9 @@ footer p {
         width: 75px;
         height: 75px;
     }
+    .block_image img {
+        padding: 5px;
+    }
     .block:nth-of-type(n+1) .block_content {
         margin-left: 75px
     }
