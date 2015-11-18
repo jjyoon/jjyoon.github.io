@@ -1113,7 +1113,7 @@ figcaption {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     display: inline-block;
-    margin: 30px auto;
+    margin: 75px auto;
 }
 
 figcaption {
@@ -1169,6 +1169,28 @@ figure a {
 .phone_screens_ios li.active,
 .phone_screens_android li.active {
     display: block;
+/*
+    -webkit-animation: fadeIn 0.3s forwards;
+    animation: fadeIn 0.3s forwards; */
+}
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .phone_screens_ios img {
