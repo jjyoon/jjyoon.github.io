@@ -1265,6 +1265,10 @@ figure a {
     transform: translateY(-50%) rotate(180deg);
 }
 
+.dl_mocks figure:nth-of-type(2) {
+    margin: 150px auto;
+}
+
 .return {
     text-align: center;
     margin: 30px auto;
@@ -1717,6 +1721,9 @@ footer p {
     .slideshow li {
         height: 300px;
         margin: 0 20px;
+    }
+    .dl_mocks figure:nth-of-type(2) {
+        margin: 75px auto;
     }
 }
 
