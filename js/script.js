@@ -7,6 +7,8 @@ window.onload = function () {
 };
 
 $(function () {
+    
+//    new WOW().init();
 
 
     $(".computer").mousemove(function (e) {
@@ -142,7 +144,6 @@ $(function () {
             $img.children().eq(0).addClass("active").siblings().removeClass("active");
         }
 
-        console.log(nextNum, imgLength);
     });
 
     $(".left_arrow").click(function () {
@@ -159,7 +160,6 @@ $(function () {
         //            imgNum = 0;
         //        }
 
-        console.log(nextNum, imgLength);
     });
 
     $('nav a, .explore').click(function (e) {
