@@ -71,15 +71,17 @@ $(function () {
         //            $piece.children(".body").fadeIn(200);
         //        }, 500);
 
-
+        
+        $(".work_overlay").show();
+        
         setTimeout(function () {
-            $(".work_overlay").fadeIn();
+            $(".work_overlay").addClass("show");
             $(bodyNum).fadeIn();
-            $("section, body>header").addClass("blur");
+            //$("section, body>header").addClass("blur");
             $("body").addClass("noscroll");
             $(".work_overlay").scrollTop(0);
             resize();
-        }, 500);
+       }, 300);
         
         
 
@@ -88,8 +90,12 @@ $(function () {
 
     function closeProj() {
         $("section, header").removeClass("blur");
-        $(".work_overlay, .body").fadeOut();
+        $(".work_overlay").removeClass("show");
         $("body").removeClass("noscroll");
+        
+        setTimeout(function () {
+           $(".work_overlay, .body").hide(); 
+        }, 200);
 
         //        window.history.back();
 
@@ -184,5 +190,8 @@ $(function () {
         $('.nav_expand').fadeOut();
     });
 
+    $(window).scroll(function() {
+       //console.log($(window).scrollTop()); 
+    });
 
 });

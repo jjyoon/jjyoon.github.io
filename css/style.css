@@ -230,6 +230,15 @@ p {
     -webkit-filter: blur(5px);
 }
 
+.hide {
+    display: none;
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -847,15 +856,15 @@ section h2 {
     left: 0;
     color: rgba(255, 255, 255, 0.8);
     background: rgba(0, 0, 0, 0.85);
-    display: none;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    transition: all 0.3s ease-in-out;
 }
 
 .body {
-    display: none;
     height: 100%;
     width: 100%;
+    display: none;
     -webkit-overflow-scrolling: touch;
 }
 
