@@ -6,8 +6,7 @@ html {
   font-size: 16px; }
 
 body {
-  font-size: 62.5%;
-  max-width: 1440px; }
+  font-size: 62.5%; }
 
 html, body {
   height: 100%; }
@@ -80,7 +79,7 @@ button:hover {
   background-color: #fff;
   color: #000; }
 
-header {
+header.fixed-nav {
   position: fixed;
   height: 60px;
   background-color: #36a0bd;
@@ -384,7 +383,7 @@ nav.expand {
   top: -6vh; }
 
 .features img[alt="oldcouple3c"] {
-  width: 100%;
+  width: 600px;
   height: auto;
   top: -200px;
   left: 50%;
@@ -450,6 +449,83 @@ nav.expand {
 
 .features .arrow_right {
   right: 20px; }
+
+.review {
+  padding-bottom: 150px;
+  width: 1024px;
+  margin: 0 auto; }
+  .review header {
+    margin-bottom: 50px; }
+    .review header h3 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #3a5264;
+      position: relative;
+      display: inline-block;
+      left: 50%;
+      clear: both;
+      -moz-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+      padding-bottom: 15px; }
+      .review header h3:after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        background: #3a5264;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+
+.testimonial {
+  text-align: center;
+  width: 33.33%;
+  float: left; }
+  .testimonial figure {
+    height: 170px;
+    width: 170px;
+    border-radius: 100px;
+    background-color: black;
+    margin: 0 auto 50px auto;
+    border: 5px solid #ddd; }
+    .testimonial figure img {
+      height: 100%;
+      width: auto; }
+  .testimonial quote {
+    font-size: 1.8em;
+    margin: 15px auto;
+    width: 50%;
+    min-height: 160px;
+    min-width: 240px;
+    display: block;
+    line-height: 1.5em;
+    position: relative;
+    padding-bottom: 25px; }
+    .testimonial quote:after {
+      content: "";
+      height: 1px;
+      width: 50%;
+      background: #000;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      -moz-transform: translate(-50%, 0);
+      -o-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0); }
+    .testimonial quote .quote-bubble {
+      position: absolute;
+      left: -30px;
+      font-size: 1.8em;
+      top: -15px;
+      color: #000;
+      opacity: 0.75; }
+  .testimonial h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em; }
 
 .img1 {
   width: 100vw;
@@ -522,7 +598,7 @@ nav.expand {
 .column {
   margin-top: 30px; }
   .column div {
-    -webkit-column-break-inside: avoid;
+    /*-webkit-column-break-inside: avoid */
     margin: 50px 0;
     margin-left: 40px;
     width: 70%; }
@@ -1038,10 +1114,8 @@ footer {
     -webkit-filter: blur(0); }
 
   .features img[alt="oldcouple3c"] {
-    width: 600px;
     height: auto;
     top: -150px;
-    right: 25vw;
     position: relative;
     -webkit-filter: blur(0); }
 
@@ -1104,9 +1178,6 @@ footer {
     right: 350px; }
 
   .features img[alt="woman_phone"] {
-    right: 100px; }
-
-  .features img[alt="oldcouple3c"] {
     right: 100px; }
 
   .features .status .content figure:first-of-type {
@@ -1173,5 +1244,8 @@ footer {
     left: 27vw; }
   .features .data .content figure:nth-of-type(2) {
     right: 2vw; } }
+@media screen and (min-width: 1400px) {
+  .features img[alt="oldcouple3c"] {
+    width: 100%; } }
 
 /*# sourceMappingURL=main2.css.map */
