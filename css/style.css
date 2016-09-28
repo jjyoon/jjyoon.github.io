@@ -1369,11 +1369,11 @@ figure a {
     padding: 15px;
 }
 
-.block:first-child img {
+.nu-purple img {
     background: #4F2A84;
 }
 
-.block:nth-child(2) img {
+.sam-purple img{
     background: #5A2484;
 }
 
