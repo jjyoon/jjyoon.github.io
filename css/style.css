@@ -866,6 +866,8 @@ section h2 {
     height: 100%;
     width: 100%;
     display: none;
+    position: fixed;
+    overflow: auto;
     -webkit-overflow-scrolling: touch;
 }
 
