@@ -232,12 +232,13 @@ p {
 }
 
 .hide {
-    display: none;
+    pointer-events: none;
     opacity: 0;
 }
 
 .show {
     opacity: 1;
+    pointer-events: auto;
 }
 
 .clearfix:after {
@@ -856,10 +857,6 @@ section h2 {
     bottom: 0;
     left: 0;
     color: rgba(255, 255, 255, 0.8);
-<<<<<<< HEAD
-=======
-    background: rgba(0, 0, 0, 0.85);
->>>>>>> parent of 1b3f125... background image fix
     overflow: auto;
     -webkit-overflow-scrolling: touch;
     transition: all 0.3s ease-in-out;
