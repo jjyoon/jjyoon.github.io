@@ -72,8 +72,6 @@ $(function () {
         //        }, 500);
 
         
-        $(".work_overlay").show();
-        
         setTimeout(function () {
             $(".work_overlay").addClass("show");
             $(bodyNum).fadeIn();
@@ -94,7 +92,7 @@ $(function () {
         $("body").removeClass("noscroll");
         
         setTimeout(function () {
-           $(".work_overlay, .body").hide(); 
+           $(".body").hide(); 
         }, 200);
 
         //        window.history.back();
