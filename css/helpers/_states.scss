@@ -1,0 +1,6 @@
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10%);
+    pointer-events: none;
+}

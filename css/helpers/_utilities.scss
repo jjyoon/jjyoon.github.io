@@ -1,0 +1,89 @@
+.u-clearfix {
+    @include cf();
+}
+
+.u-clear-both {
+    clear: both;
+}
+
+.u-clear-left {
+    clear: left;
+}
+
+.u-float-left {
+    float: left;
+}
+
+.u-float-right {
+    float: right;
+}
+
+.u-padding-top {
+    padding-top: 40px;
+}
+
+.u-margin-top-less {
+    margin-top: 20px;
+}
+
+.u-margin-top {
+    margin-top: 40px;
+}
+
+.u-margin-top-more {
+    margin-top: 80px;
+}
+
+.u-padding-bottom {
+    padding-bottom: 40px;
+}
+
+.u-margin-bottom-less {
+    margin-bottom: 20px;
+}
+
+.u-margin-bottom {
+    margin-bottom: 40px;
+}
+
+.u-margin-bottom-more {
+    margin-bottom: 80px;
+}
+
+.u-padding-left {
+    padding-left: 40px;
+}
+
+.u-margin-left {
+    margin-left: 40px;
+}
+
+.u-padding-right {
+    padding-right: 40px;
+}
+
+.u-margin-right {
+    margin-right: 40px;
+}
+
+.u-text-right {
+    text-align: right;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-text-left {
+    text-align: left;
+}
+
+.u-text-white {
+    color: #fff;
+}
+
+.u-min-height {
+    @include desktop {
+        min-height: calc(100vh - 140px);
+    }
+}

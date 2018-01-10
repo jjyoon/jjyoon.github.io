@@ -1,0 +1,26 @@
+.c-main-header__my-name {
+    width: 75%;
+    
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.l-main-header__my-name {
+    margin-top: 40px;
+}
+
+.c-main-header__my-name-svg {
+    width: 100%;
+}
+
+.c-about__my-name-container {
+    position: relative;
+    width: calc(50% - 40px);
+    
+    @include mobile {
+        width: 100%;
+        margin-top: 20px;
+        float: none;
+    }
+}

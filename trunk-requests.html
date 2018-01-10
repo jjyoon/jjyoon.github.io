@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69777847-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-69777847-1');
+
+    </script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Yoon Portfolio | Trunk Requests</title>
+    <meta name="keywords" content="product design, ux design, ui design, design">
+    <meta name="description" content="A feature project designed for Trunk Club to make it easier for customers to request trunks.">
+    <svg style="position: absolute; overflow: hidden;" height="45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+        <symbol id="icon-twitter" viewBox="0 0 25 25">
+        <title>twitter</title>
+        <path d="M25 5.527c-0.918 0.41-1.909 0.684-2.944 0.806 1.060-0.635 1.87-1.641 2.256-2.837-0.991 0.586-2.090 1.016-3.257 1.245-0.938-0.996-2.271-1.616-3.745-1.616-2.832 0-5.127 2.295-5.127 5.127 0 0.4 0.044 0.791 0.132 1.167-4.263-0.215-8.042-2.256-10.571-5.361-0.439 0.757-0.693 1.641-0.693 2.578 0 1.777 0.903 3.35 2.28 4.268-0.84-0.024-1.631-0.259-2.324-0.64 0 0.020 0 0.044 0 0.063 0 2.485 1.768 4.561 4.116 5.029-0.43 0.117-0.884 0.181-1.353 0.181-0.332 0-0.649-0.034-0.967-0.093 0.654 2.036 2.549 3.521 4.79 3.564-1.758 1.377-3.965 2.197-6.372 2.197-0.415 0-0.82-0.024-1.226-0.073 2.275 1.46 4.971 2.305 7.866 2.305 9.434 0 14.595-7.817 14.595-14.595 0-0.225-0.005-0.444-0.015-0.664 1.001-0.718 1.87-1.621 2.559-2.651z"></path>
+        </symbol>
+        <symbol id="icon-behance" viewBox="0 0 25 25">
+        <title>behance</title>
+        <path d="M7.251 5.010c0.737 0 1.401 0.063 2.007 0.195 0.605 0.127 1.118 0.342 1.553 0.635 0.43 0.293 0.762 0.684 1.006 1.172 0.234 0.483 0.352 1.089 0.352 1.807 0 0.776-0.176 1.421-0.527 1.938-0.356 0.518-0.874 0.938-1.567 1.27 0.947 0.273 1.646 0.752 2.114 1.431 0.469 0.684 0.693 1.504 0.693 2.471 0 0.781-0.151 1.45-0.449 2.017-0.303 0.571-0.713 1.035-1.216 1.392-0.508 0.361-1.094 0.625-1.748 0.796-0.649 0.171-1.318 0.259-2.012 0.259h-7.456v-15.381h7.251zM6.812 11.221c0.601 0 1.099-0.142 1.489-0.43 0.391-0.283 0.576-0.752 0.576-1.396 0-0.356-0.063-0.654-0.19-0.884-0.132-0.229-0.303-0.41-0.522-0.537-0.215-0.132-0.459-0.22-0.747-0.269-0.278-0.054-0.571-0.078-0.869-0.078h-3.164v3.594h3.428zM6.997 17.769c0.332 0 0.649-0.029 0.947-0.098 0.303-0.068 0.571-0.171 0.796-0.327 0.225-0.151 0.415-0.352 0.552-0.615 0.137-0.259 0.2-0.591 0.2-0.996 0-0.791-0.225-1.357-0.669-1.699-0.444-0.337-1.035-0.503-1.768-0.503h-3.672v4.233h3.613z"></path>
+        <path d="M17.705 17.715c0.459 0.449 1.118 0.674 1.978 0.674 0.615 0 1.152-0.156 1.597-0.469s0.713-0.645 0.815-0.986h2.695c-0.435 1.343-1.089 2.295-1.987 2.871-0.884 0.576-1.968 0.869-3.223 0.869-0.879 0-1.665-0.142-2.373-0.42-0.708-0.283-1.299-0.679-1.797-1.196-0.483-0.518-0.864-1.133-1.133-1.855-0.264-0.718-0.4-1.514-0.4-2.373 0-0.835 0.137-1.611 0.41-2.329 0.278-0.723 0.659-1.343 1.167-1.865s1.104-0.937 1.807-1.24c0.698-0.303 1.47-0.454 2.324-0.454 0.942 0 1.768 0.181 2.476 0.552 0.703 0.366 1.284 0.859 1.738 1.475s0.776 1.323 0.977 2.114c0.2 0.791 0.269 1.616 0.215 2.48h-8.042c0 0.874 0.293 1.709 0.757 2.153zM21.216 11.865c-0.361-0.4-0.981-0.62-1.729-0.62-0.488 0-0.894 0.083-1.216 0.249-0.317 0.166-0.576 0.371-0.776 0.615-0.195 0.244-0.332 0.508-0.41 0.786-0.078 0.269-0.127 0.518-0.142 0.732h4.98c-0.073-0.781-0.342-1.357-0.708-1.763z"></path>
+        <path d="M16.318 6.25h6.235v1.519h-6.235v-1.519z"></path>
+        </symbol>
+        <symbol id="icon-linkedin2" viewBox="0 0 25 25">
+        <title>linkedin2</title>
+        <path d="M9.375 9.375h4.324v2.216h0.062c0.602-1.079 2.074-2.216 4.269-2.216 4.564 0 5.408 2.841 5.408 6.536v7.526h-4.507v-6.672c0-1.591-0.033-3.638-2.344-3.638-2.347 0-2.706 1.733-2.706 3.523v6.787h-4.505v-14.063z"></path>
+        <path d="M1.563 9.375h4.688v14.063h-4.688v-14.063z"></path>
+        <path d="M6.25 5.469c0 1.294-1.049 2.344-2.344 2.344s-2.344-1.049-2.344-2.344c0-1.294 1.049-2.344 2.344-2.344s2.344 1.049 2.344 2.344z"></path>
+        </symbol>
+        <symbol id="icon-arrow-down2" viewBox="0 0 25 25">
+        <title>arrow-down2</title>
+        <path d="M21.417 15.167l-7.813 7.813c-0.61 0.61-1.599 0.61-2.21 0l-7.813-7.813c-0.61-0.61-0.61-1.6 0-2.21s1.6-0.61 2.21 0l5.145 5.145v-14.978c0-0.863 0.7-1.563 1.563-1.563s1.563 0.7 1.563 1.563v14.978l5.145-5.145c0.305-0.305 0.705-0.458 1.105-0.458s0.8 0.153 1.105 0.458c0.61 0.61 0.61 1.599 0 2.21z"></path>
+        </symbol>
+        </defs>
+    </svg>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:700i|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="l-container u-margin-top u-margin-bottom">
+        <nav class="c-nav">
+            <a href="/" class="c-nav__home-link u-float-left">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.49 69.49" class="c-nav__svg-logo"><title>logo</title><path d="M34.89,42.49a217.37,217.37,0,0,0,27,15.33c5.78,2.75,10.86-5.87,5-8.63a217.37,217.37,0,0,1-27-15.33c-5.37-3.57-10.39,5.09-5,8.63Z" style="fill:#b24056"/><path d="M16.75,20.48l38,.13c6.44,0,6.44-10,0-10l-13.31,0v10l9.18,0v-10l-20.09-.07c-6.44,0-6.44,10,0,10l20.09.07c6.44,0,6.44-10,0-10l-9.18,0c-6.44,0-6.44,10,0,10l13.31,0v-10l-38-.13c-6.44,0-6.44,10,0,10Z" style="fill:#f3556f"/><path d="M51.13,13.09A191.2,191.2,0,0,1,31.5,36.61C26.35,41.83,16.14,54,8.56,46.55,4,42-3.11,49.1,1.49,53.62c10,9.79,22,4,30.92-4,10.34-9.32,19.3-20.16,27.35-31.49,3.74-5.25-4.93-10.25-8.63-5Z" style="fill:#f3556f"/>
+                    </svg>
+            </a>
+            <div class="c-nav__menu-container">
+                <div class="c-nav__menu-button--white-bg l-nav__menu-button u-float-right u-text-right">
+                    <div class="c-nav__menu-text">Menu</div>
+                    <div class="c-nav__close-text is-hidden">Close</div>
+                </div>
+                <div class="c-nav__menu l-nav__menu is-hidden">
+                    <ul class="c-nav__menu-list">
+                        <li class="c-nav__menu-list-item">
+                            <a href="about" class="c-nav__menu-link">About</a>
+                        </li>
+                        <li class="c-nav__menu-list-item">
+                            <a href="/#works" class="c-nav__menu-link">Works</a>
+                        </li>
+                        <li class="c-nav__menu-list-item">
+                            <a href="files/jimmy-yoon-resume.pdf" class="c-nav__menu-link" target="_blank">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="l-container">
+        <figure class="page__image-container--left">
+            <img src="img/trunk-requests/thumb.jpg" alt="project thumbnail" class="page__image l-page__image">
+        </figure>
+        <header class="c-works-item__header l-works-item__header">
+            <div class="l-header__works-title-group">
+                <h1 class="t1 l-header__works-name">Making it easier for Trunk Club customers to request trunks</h1>
+            </div>
+            <div class="c-header__horizontal-divider l-header__horizontal-divider"></div>
+            <div class="header__works-secondary-info">
+                <p class="t3"><b class="bold">Client:</b> Trunk Club</p>
+                <p class="t3"><b class="bold">Role:</b> Product Design</p>
+            </div>
+        </header>
+        <p class="s1 l-page--text-full-width u-padding-top">
+            <span class="t4 u-margin-bottom-less">Project Background</span> One of Trunk Club's core experiences is communicating with your stylist via online chat. Though it seems simple to just ask your stylist for another trunk, we heard a lot of feedback from customers that requesting another trunk wasn’t intuitive. We realized that customers were expecting to go through some sort flow to request a trunk.
+        </p>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            So we thought, <b class="bold">how might we make it easier for Trunk Club customers to easily request trunks from their stylists? </b>
+        </p>
+        <p class="s1 l-page--text-full-width u-padding-top">
+            <span class="t4 u-margin-bottom-less">Research</span> We took a step back and tried to think of the reasons customers came back to get subsequent trunks. We decided to interview a couple stylists and ask what the most common reasons customers requested more trunks. The interviews showed that most customers either came to find a specific clothing item or clothes for an upcoming event.
+        </p>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            We decided to tackle this in two parts. First was to do a card sort of our clothing categories with stylists to see what were the most requested categories by customers. Second was to further dig into the most commonly mentioned upcoming events that customers wanted trunks for.
+        </p>
+        <figure class="page__image-container u-margin-bottom l-page--image-center-width">
+            <img src="img/trunk-requests/card-sort.jpg" alt="card sort" class="page__image l-page__image" data-action="zoom">
+        </figure>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            <span class="t4 u-margin-bottom-less">Ideation</span> After obtaining these insights, we ideated on how we might design an experience for a customer to request a trunk. We came up with a variety of concepts, ranging from conversation starters, simple one click requests, long visual flows, and so on.
+        </p>
+        <figure class="page__image-container u-margin-bottom l-page--image-center-width">
+            <img src="img/trunk-requests/explorations.jpg" alt="" class="page__image l-page__image" data-action="zoom">
+        </figure>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            <span class="t4 u-margin-bottom-less">Feedback and testing</span> With these concepts, we conducted a few design critiques from the those around the company, which included a mix of designers and non-designers, and also tested it in a couple usability tests.
+        </p>
+        <ul class="bullet-list s1 l-page--text-full-width u-margin-bottom">
+            <p class="u-underline u-margin-bottom-less">Some of the insights we learned:</p>
+            <li class="bullet">
+                Not all customer wanted to have to talk their stylists to request a trunk – their mental models leaned towards going through some sort of form of questions
+            </li>
+            <li class="bullet">
+                No one likes long forms – the experience should have a good balance of the number of questions asked and how specific they are
+            </li>
+            <li class="bullet">
+                The design should be something that’s easy to interact with on mobile and desktop platforms – mainly because of the number of options the customer will be presented with
+            </li>
+        </ul>
+        <p class="s1 l-page--text-full-width u-margin-bottom">
+            After some iteration, we landed on a solution that would collect the least, but most necessary, information from a customer requesting a trunk: what they customer needed and what the trunk was for. The options shown per section were collected and validated by stylists in our research phrase.
+        </p>
+        <figure class="page__image-container l-page--image-center-width u-margin-bottom">
+            <img src="img/trunk-requests/final-design.jpg" alt="final design" class="page__image l-page__image" data-action="zoom">
+            <!--            <figcaption class="s1 page__image-caption">Hello</figcaption>-->
+        </figure>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            <span class="t4 u-margin-bottom-less">Results</span> After the release of this feature, we found that around <b class="bold">34% of our customers utilized this flow to request a trunk</b> from their stylists, helping validate the usefulness of this feature. There was also around a <b class="bold">12.7% increase in keep rate of items in a customer's trunk</b>.
+        </p>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            <span class="t4 u-margin-bottom-less">What I learned</span> Though it wasn’t initially scoped out in the beginning of the project, we learned that we could utilize the data captured from this experience to help inform other parts of the business. These were areas such as data science to help recommend products customers would want, marketing to inform future campaigns, or even merchandising to forecast for future demands of certain products. Even now, we’ve been using this flow in other digital experiences that we hadn’t initially accounted for.
+        </p>
+        <p class="s1 l-page--text-full-width u-margin-top u-margin-bottom">
+            <span class="t4 u-margin-bottom-less">Reflection</span> Given that this feature could help inform other parts of the business, I would have wanted to talk with more stakeholders throughout the company during the initial stages of the project to see how this experience could help them. If our team knew that this could help with other departments such as marketing or merchandising, I believe more thought out research and collaboration could have been conducted with those relevant parties to create an even more useful feature.
+        </p>
+
+    </section>
+    <footer class="c-footer u-padding-top u-padding-bottom">
+        <div class="l-container u-text-left">
+            <p class="t3">Jimmy J. Yoon &#169; 2018</p>
+            <p class="t3">Contact me at <a href="" class="u-text-white">jimmyjyoon@gmail.com</a></p>
+            <ul class="c-social-media-list l-social-media-list">
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://www.linkedin.com/in/jimmyjyoon/" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-linkedin2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://twitter.com/jimmyjyoon" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://www.behance.net/jyoon93" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-behance"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/zoom.css">
+    <script src="js/zoom.js"></script>
+</body>
+
+</html>

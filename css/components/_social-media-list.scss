@@ -1,0 +1,29 @@
+.c-social-media-list {}
+
+.l-social-media-list {
+    margin: 40px 0;
+}
+
+.c-social-media-list__icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.l-social-media-list__icon {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.c-social-media-list__link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.social-media-list__svg {
+    width: 100%;
+    height: 100%;
+    fill: #8E99A8;
+}

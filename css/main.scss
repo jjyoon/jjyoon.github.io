@@ -1,0 +1,34 @@
+@import 'base/reset.css';
+@import 'base/colors';
+@import 'helpers/mixins';
+@import 'layout/grid';
+@import 'typography/typography';
+@import 'helpers/utilities';
+@import 'helpers/states';
+@import 'components/main-header';
+@import 'components/navigation';
+@import 'components/my-name';
+@import 'components/social-media-list';
+@import 'components/works-showcase';
+@import 'layout/page-template';
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.c-footer {
+    color: #fff;
+    text-align: center;
+    background: $soft-black;
+    .t3 {
+        &:not(:last-child) {
+            margin-bottom: 20px
+        }
+    }
+    .l-social-media-list {
+        margin-bottom: 0;
+    }
+    
+}

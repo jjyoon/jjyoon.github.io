@@ -1,0 +1,67 @@
+$sans: 'Roboto', sans-serif;
+$serif: 'Lora', serif;
+$sans-title: 'Playfair Display', serif;
+
+.t1 {
+    font-family: $sans;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.25em;
+}
+
+.t2 {
+    font-family: $serif;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+}
+
+.t3 {
+    font-family: $serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.t4 {
+    display: block;
+    font-family: $sans;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.s1 {
+    font-family: $serif;
+    font-size: 1.6em;
+    line-height: 1.75em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.link {
+    font-family: $sans;
+    font-size: 1.6em;
+    color: $soft-black;
+}
+
+.link-serif {
+    font-family: $serif;
+    color: $soft-black;
+}
+
+.u-underline {
+    text-decoration: underline;
+}
+
+.bullet-list {}
+
+.bullet {
+    list-style: circle;
+    
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,190 @@
+.page__row {
+    margin-bottom: 40px;
+}
+
+.page__image-container {
+    position: relative;
+    padding-top: 30%; //    clear: both;
+    @include mobile {
+        padding-top: 60%;
+    }
+
+    &--right {
+        @extend .page__image-container;
+        width: 50%;
+        float: right;
+        margin-left: 40px;
+
+        @include mobile {
+            width: 100%;
+            margin-left: 0px;
+            float: none;
+        }
+    }
+
+    &--right-large {
+        @extend .page__image-container;
+        width: 75%;
+        float: right;
+        margin-left: -25%;
+    }
+
+    &--left {
+        @extend .page__image-container;
+        width: 50%;
+        float: left;
+        margin-right: 40px;
+
+        @include mobile {
+            width: 100%;
+            margin-right: 0;
+            float: none;
+        }
+    }
+
+    &--left-large {
+        @extend .page__image-container;
+        width: 75%;
+        float: left;
+        margin-left: -25%;
+    }
+}
+
+.u-portrait-image {
+    padding-top: 60%;
+
+    @include mobile {
+        padding-top: 120%;
+    }
+}
+
+video.is-video {
+    width: auto;
+    @include absolutecenter($axis: "x")
+}
+
+.u-inner-image-top {
+    object-position: center top;
+}
+
+.page__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.l-page__image {
+    position: absolute;
+    top: 0;
+}
+
+.l-page--image-center-width {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding-top: 40%;
+
+    @include mobile {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 60%
+    }
+}
+
+.page__image-caption {
+    position: relative;
+    z-index: 5;
+    padding: 5px 10px;
+    background: #fff;
+}
+
+.l-page--text-full-width {
+    width: 50%;
+    min-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+
+    @include mobile {
+        width: 100%;
+        min-width: auto;
+        max-width: 480px;
+    }
+}
+
+.l-page--text-half-width {
+    @extend .s1;
+    display: inline-block;
+    width: calc(50% - 40px);
+
+    @include mobile {
+        display: block;
+        width: 100%;
+        max-width: 480px;
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+}
+
+.l-works-item__header {
+    display: inline-block;
+    width: calc(50% - 40px);
+
+    @include mobile {
+        display: block;
+        width: 100%;
+        clear: both;
+        padding-top: 20px;
+    }
+
+}
+
+.c-works-item__header {
+    .l-header__works-title-group {
+        //        position: relative;
+        //        margin-bottom: -35px;
+    }
+    .c-header__works-number {
+        height: 130px;
+    }
+    .l-header__works-name {
+        //        transform: translate(5%, -50%);
+        //        width: 50%;
+    }
+    .c-header__horizontal-divider {
+        height: 1px;
+        background: $soft-black;
+    }
+    .l-header__horizontal-divider {
+        //        width: 80%;
+        margin: 20px 0;
+    }
+    .header__works-secondary-info {
+        position: relative;
+        line-height: 3.6em;
+        .link {
+            font-family: $sans;
+            font-size: 1.4em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 57.6%;
+}
+
+.iframe-container__iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

@@ -2,631 +2,217 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-69777847-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-69777847-1');
+
+    </script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jimmy J. Yoon | Product Designer based in Chicago, IL</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/fonts/stylesheet.css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<!--    <link rel="stylesheet" href="css/animate.css">-->
-    <link rel="stylesheet" href="css/style.min.css">
-
-
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Yoon Portfolio | Product Designer</title>
+    <meta name="keywords" content="product design, ux design, ui design, design">
+    <meta name="description" content="Jimmy Yoon is a Product Designer currently working at Trunk Club in Chiacgo, IL">
+    <svg style="position: absolute; overflow: hidden;" height="45" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+        <symbol id="icon-twitter" viewBox="0 0 25 25">
+        <title>twitter</title>
+        <path d="M25 5.527c-0.918 0.41-1.909 0.684-2.944 0.806 1.060-0.635 1.87-1.641 2.256-2.837-0.991 0.586-2.090 1.016-3.257 1.245-0.938-0.996-2.271-1.616-3.745-1.616-2.832 0-5.127 2.295-5.127 5.127 0 0.4 0.044 0.791 0.132 1.167-4.263-0.215-8.042-2.256-10.571-5.361-0.439 0.757-0.693 1.641-0.693 2.578 0 1.777 0.903 3.35 2.28 4.268-0.84-0.024-1.631-0.259-2.324-0.64 0 0.020 0 0.044 0 0.063 0 2.485 1.768 4.561 4.116 5.029-0.43 0.117-0.884 0.181-1.353 0.181-0.332 0-0.649-0.034-0.967-0.093 0.654 2.036 2.549 3.521 4.79 3.564-1.758 1.377-3.965 2.197-6.372 2.197-0.415 0-0.82-0.024-1.226-0.073 2.275 1.46 4.971 2.305 7.866 2.305 9.434 0 14.595-7.817 14.595-14.595 0-0.225-0.005-0.444-0.015-0.664 1.001-0.718 1.87-1.621 2.559-2.651z"></path>
+        </symbol>
+        <symbol id="icon-behance" viewBox="0 0 25 25">
+        <title>behance</title>
+        <path d="M7.251 5.010c0.737 0 1.401 0.063 2.007 0.195 0.605 0.127 1.118 0.342 1.553 0.635 0.43 0.293 0.762 0.684 1.006 1.172 0.234 0.483 0.352 1.089 0.352 1.807 0 0.776-0.176 1.421-0.527 1.938-0.356 0.518-0.874 0.938-1.567 1.27 0.947 0.273 1.646 0.752 2.114 1.431 0.469 0.684 0.693 1.504 0.693 2.471 0 0.781-0.151 1.45-0.449 2.017-0.303 0.571-0.713 1.035-1.216 1.392-0.508 0.361-1.094 0.625-1.748 0.796-0.649 0.171-1.318 0.259-2.012 0.259h-7.456v-15.381h7.251zM6.812 11.221c0.601 0 1.099-0.142 1.489-0.43 0.391-0.283 0.576-0.752 0.576-1.396 0-0.356-0.063-0.654-0.19-0.884-0.132-0.229-0.303-0.41-0.522-0.537-0.215-0.132-0.459-0.22-0.747-0.269-0.278-0.054-0.571-0.078-0.869-0.078h-3.164v3.594h3.428zM6.997 17.769c0.332 0 0.649-0.029 0.947-0.098 0.303-0.068 0.571-0.171 0.796-0.327 0.225-0.151 0.415-0.352 0.552-0.615 0.137-0.259 0.2-0.591 0.2-0.996 0-0.791-0.225-1.357-0.669-1.699-0.444-0.337-1.035-0.503-1.768-0.503h-3.672v4.233h3.613z"></path>
+        <path d="M17.705 17.715c0.459 0.449 1.118 0.674 1.978 0.674 0.615 0 1.152-0.156 1.597-0.469s0.713-0.645 0.815-0.986h2.695c-0.435 1.343-1.089 2.295-1.987 2.871-0.884 0.576-1.968 0.869-3.223 0.869-0.879 0-1.665-0.142-2.373-0.42-0.708-0.283-1.299-0.679-1.797-1.196-0.483-0.518-0.864-1.133-1.133-1.855-0.264-0.718-0.4-1.514-0.4-2.373 0-0.835 0.137-1.611 0.41-2.329 0.278-0.723 0.659-1.343 1.167-1.865s1.104-0.937 1.807-1.24c0.698-0.303 1.47-0.454 2.324-0.454 0.942 0 1.768 0.181 2.476 0.552 0.703 0.366 1.284 0.859 1.738 1.475s0.776 1.323 0.977 2.114c0.2 0.791 0.269 1.616 0.215 2.48h-8.042c0 0.874 0.293 1.709 0.757 2.153zM21.216 11.865c-0.361-0.4-0.981-0.62-1.729-0.62-0.488 0-0.894 0.083-1.216 0.249-0.317 0.166-0.576 0.371-0.776 0.615-0.195 0.244-0.332 0.508-0.41 0.786-0.078 0.269-0.127 0.518-0.142 0.732h4.98c-0.073-0.781-0.342-1.357-0.708-1.763z"></path>
+        <path d="M16.318 6.25h6.235v1.519h-6.235v-1.519z"></path>
+        </symbol>
+        <symbol id="icon-linkedin2" viewBox="0 0 25 25">
+        <title>linkedin2</title>
+        <path d="M9.375 9.375h4.324v2.216h0.062c0.602-1.079 2.074-2.216 4.269-2.216 4.564 0 5.408 2.841 5.408 6.536v7.526h-4.507v-6.672c0-1.591-0.033-3.638-2.344-3.638-2.347 0-2.706 1.733-2.706 3.523v6.787h-4.505v-14.063z"></path>
+        <path d="M1.563 9.375h4.688v14.063h-4.688v-14.063z"></path>
+        <path d="M6.25 5.469c0 1.294-1.049 2.344-2.344 2.344s-2.344-1.049-2.344-2.344c0-1.294 1.049-2.344 2.344-2.344s2.344 1.049 2.344 2.344z"></path>
+        </symbol>
+        <symbol id="icon-arrow-down2" viewBox="0 0 25 25">
+        <title>arrow-down2</title>
+        <path d="M21.417 15.167l-7.813 7.813c-0.61 0.61-1.599 0.61-2.21 0l-7.813-7.813c-0.61-0.61-0.61-1.6 0-2.21s1.6-0.61 2.21 0l5.145 5.145v-14.978c0-0.863 0.7-1.563 1.563-1.563s1.563 0.7 1.563 1.563v14.978l5.145-5.145c0.305-0.305 0.705-0.458 1.105-0.458s0.8 0.153 1.105 0.458c0.61 0.61 0.61 1.599 0 2.21z"></path>
+        </symbol>
+        </defs>
+    </svg>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:700i|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <div class="bodyscroll">
-
-        <div class="loader">
-            <svg class="mylogo" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-898 479.424 122.576 122.576" style="enable-background:new -898 479.424 122.576 122.576;" xml:space="preserve">
-                <style type="text/css">
-                    .st0 {
-                        fill: none;
-                        stroke: #58595B;
-                        stroke-width: 6;
-                        stroke-miterlimit: 10;
-                    }
-                    
-                    .st1 {
-                        fill: none;
-                    }
-                </style>
-                <polyline class="st0 logo_ani1" points="-817.054,482.424 -895,482.424 -895,599 -778.424,599 -778.424,521.054 " />
-                <g>
-                    <path class="st1 logo_ani2" d="M-836.712,540.712c8.779,5.889,17.795,11.01,26.983,15.328" />
-                </g>
-                <g>
-                    <path class="st1 logo_ani3" d="M-869.092,552.63c3.608,3.993,8.526,4.68,12.925,3.221s8.389-4.835,12.197-8.4
-		c9.065-8.486,17.554-18.316,25.295-29.294h-38.698" />
-                </g>
-            </svg>
-        </div>
-
-        <header>
-            <ul id="scene">
-                <li class="layer" data-depth="0">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.05">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.1">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.25">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.2">
-                    <h1>Jimmy Yoon</h1>
-                    <div class="line"></div>
-                    <h2>Product Designer</h2>
-                </li>
-                <li class="layer" data-depth="0.3">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.35">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.4">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.55">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="0.75">
-                    <div></div>
-                </li>
-                <li class="layer" data-depth="1">
-                    <div></div>
-                </li>
-            </ul>
-
-            <nav class="margins_large">
-                <div class="logo">
-                    <img src="img/logo.svg">
-                </div>
-                <ul class="nav_text">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <ul class="nav_bars">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <div class="nav_expand">
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#works">Works</a></li>
-                        <li><a href="#resume">Resume</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+    <header class="c-main-header l-main-header">
+        <div class="l-container">
+            <nav class="c-nav">
+                <a href="/" class="c-nav__home-link u-float-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.49 69.49" class="c-nav__svg-logo"><title>logo</title><path d="M34.89,42.49a217.37,217.37,0,0,0,27,15.33c5.78,2.75,10.86-5.87,5-8.63a217.37,217.37,0,0,1-27-15.33c-5.37-3.57-10.39,5.09-5,8.63Z" style="fill:#b24056"/><path d="M16.75,20.48l38,.13c6.44,0,6.44-10,0-10l-13.31,0v10l9.18,0v-10l-20.09-.07c-6.44,0-6.44,10,0,10l20.09.07c6.44,0,6.44-10,0-10l-9.18,0c-6.44,0-6.44,10,0,10l13.31,0v-10l-38-.13c-6.44,0-6.44,10,0,10Z" style="fill:#f3556f"/><path d="M51.13,13.09A191.2,191.2,0,0,1,31.5,36.61C26.35,41.83,16.14,54,8.56,46.55,4,42-3.11,49.1,1.49,53.62c10,9.79,22,4,30.92-4,10.34-9.32,19.3-20.16,27.35-31.49,3.74-5.25-4.93-10.25-8.63-5Z" style="fill:#f3556f"/>
+                    </svg>
+                </a>
+                <div class="c-nav__menu-container">
+                    <div class="c-nav__menu-button l-nav__menu-button u-float-right u-text-right">
+                        <div class="c-nav__menu-text">Menu</div>
+                        <div class="c-nav__close-text is-hidden">Close</div>
+                    </div>
+                    <div class="c-nav__menu l-nav__menu is-hidden">
+                        <ul class="c-nav__menu-list">
+                            <li class="c-nav__menu-list-item">
+                                <a href="about" class="c-nav__menu-link">About</a>
+                            </li>
+                            <li class="c-nav__menu-list-item">
+                                <a href="/#works" class="c-nav__menu-link">Works</a>
+                            </li>
+                            <li class="c-nav__menu-list-item">
+                                <a href="files/" class="c-nav__menu-link" target="_blank">Resume</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-
-            <a href="#about" class="explore">
-                <div class="circle_top">
-                    <div class="arrow"></div>
-                </div>
-            </a>
-
-        </header>
-
-        <section class="about" id="about">
-            <h2>About Me</h2>
-            <h3>I'm a designer... that likes to code too</h3>
-            <div class="computer margins_large wow fadeInUp">
-
-                <img src="img/macbook.svg" alt="" class="macbook_svg">
-                <div class="screen_wrapper">
-                    <figure class="screens code">
-                        <img src="img/code.png" alt="">
-                    </figure>
-                    <figure class="screens illustrate">
-                        <img src="img/illustrate.png" alt="">
-                    </figure>
-
-                </div>
-
-
-                <!--
-                <figure class="computer">
-                <img src="img/macbook.svg" alt="">
-                <figure class="screens illustrate">
-                    <img src="img/illustrate.png" alt="">
-                </figure>
-                <figure class="screens code">
-                    <img src="img/code.png" alt="">
-                </figure>
-            </figure>
--->
+            <div class="c-main-header__my-name l-main-header__my-name">
+                <svg viewBox="0 0 423 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="c-main-header__my-name-svg">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" fill="#FFFFFF">
+            <path d="M38.265625,48.0234375 C35.3125,48.1640625 30.25,48.234375 25.5039062,48.234375 C20.6171875,48.234375 16.0117188,48.1640625 13.4101562,48.0234375 L13.4101562,49.4648438 C17.734375,49.6757812 18.5429687,50.4140625 18.5429687,55.6523438 L18.5429687,88.5585938 C18.5429687,98.5078125 18.5429687,102.304688 17.03125,106.488281 C16.0820312,108.949219 13.9023437,111.023438 10.6679687,111.023438 C10.2460937,111.023438 9.82421875,111.023438 9.3671875,110.953125 C12.3203125,109.863281 13.5507812,107.648438 13.5507812,105.539062 C13.5507812,102.023438 11.0546875,100.230469 7.08203125,100.230469 C2.828125,100.230469 0.015625,102.375 0.015625,105.785156 C0.015625,108.070312 1.03515625,109.863281 3.63671875,111.164062 C5.8515625,112.253906 9.15625,112.535156 11.6875,112.535156 C22.4101562,112.535156 29.7578125,107.4375 31.9023437,100.792969 C32.9921875,97.3476562 33.1679687,92.53125 33.1679687,87.9257812 C33.1679687,85.8867188 33.1328125,83.8476562 33.1328125,82.0195312 L33.1328125,55.6523438 C33.1328125,50.4140625 33.8710937,49.6757812 38.265625,49.4648438 L38.265625,48.0234375 Z M51.4492188,42.6796875 C46.3867188,42.6796875 43.609375,44.7890625 43.609375,48.9023438 C43.609375,52.9804688 46.3867188,55.0898438 51.4492188,55.0898438 C56.40625,55.0898438 59.2890625,52.9804688 59.2890625,48.9023438 C59.2890625,44.7890625 56.40625,42.6796875 51.4492188,42.6796875 Z M58.3398438,60.8554688 C54.7539062,61.5585938 50.640625,61.8398438 45.8242188,61.8398438 C44.3828125,61.8398438 42.8710938,61.7695312 41.359375,61.6289062 L41.359375,63.140625 C44.3828125,63.140625 45.4023438,65.1445312 45.4023438,69.46875 L45.4023438,92.3203125 C45.4023438,96.328125 44.3125,97.4882812 41.359375,97.4882812 L41.359375,99 C43.4335938,98.9296875 48.1445312,98.71875 52.1523438,98.71875 C56.1953125,98.71875 60.4492188,98.9296875 62.3828125,99 L62.3828125,97.4882812 C59.4296875,97.4882812 58.3398438,96.328125 58.3398438,92.3203125 L58.3398438,60.8554688 Z M124.75,72.8085938 C124.75,67.8867188 124.082031,65.2148438 122.640625,63.4921875 C121.269531,61.8398438 118.914062,60.609375 114.519531,60.609375 C109.386719,60.609375 105.167969,62.015625 102.53125,66.8671875 C102.214844,65.4257812 101.6875,64.3359375 100.984375,63.4921875 C99.6132812,61.8398438 97.2226562,60.609375 92.828125,60.609375 C88.0117188,60.609375 84.2851562,62.1914062 82.1054688,66.0234375 L82.1054688,60.8554688 C78.5195312,61.5585938 74.40625,61.8398438 69.5898438,61.8398438 C68.1484375,61.8398438 66.6367188,61.7695312 65.125,61.6289062 L65.125,63.140625 C68.1484375,63.140625 69.1679688,65.1445312 69.1679688,69.46875 L69.1679688,92.3203125 C69.1679688,96.328125 68.078125,97.4882812 65.125,97.4882812 L65.125,99 C67.1992188,98.9296875 71.9101562,98.71875 75.9179688,98.71875 C79.3984375,98.71875 83.0546875,98.9296875 84.7070312,99 L84.7070312,97.4882812 C82.7734375,97.4882812 82.1054688,96.328125 82.1054688,92.3203125 L82.1054688,69.5390625 C82.1054688,66.515625 84.6367188,64.3710938 87.3085938,64.3710938 C89.3125,64.3710938 90.1210938,65.8828125 90.1210938,68.90625 L90.1210938,92.3203125 C90.1210938,96.328125 89.3828125,97.4882812 87.5195312,97.4882812 L87.5195312,99 C89.3125,98.9296875 93.2851562,98.71875 97.0117188,98.71875 C100.492188,98.71875 104.570312,98.9296875 106.398438,99 L106.398438,97.4882812 C103.867188,97.4882812 103.058594,96.328125 103.058594,92.3203125 L103.058594,72.8085938 C103.058594,71.6484375 103.023438,70.59375 102.953125,69.6796875 C103.304688,66.8671875 105.765625,64.3710938 108.261719,64.3710938 C110.757812,64.3710938 111.777344,65.8828125 111.777344,68.90625 L111.777344,92.3203125 C111.777344,96.328125 111.144531,97.4882812 109.175781,97.4882812 L109.175781,99 C111.003906,98.9296875 114.941406,98.71875 118.703125,98.71875 C122.429688,98.71875 126.824219,98.9296875 128.757812,99 L128.757812,97.4882812 C125.804688,97.4882812 124.75,96.328125 124.75,92.3203125 L124.75,72.8085938 Z M190.703125,72.8085938 L190.703125,92.3203125 C190.703125,96.328125 191.757812,97.4882812 194.710938,97.4882812 L194.710938,99 C192.777344,98.9296875 188.382812,98.71875 184.65625,98.71875 C180.894531,98.71875 176.957031,98.9296875 175.128906,99 L175.128906,97.4882812 C177.097656,97.4882812 177.730469,96.328125 177.730469,92.3203125 L177.730469,68.90625 C177.730469,65.8828125 176.710938,64.3710938 174.214844,64.3710938 C171.71875,64.3710938 169.257812,66.8671875 168.90625,69.6796875 C168.976562,70.59375 169.011719,71.6484375 169.011719,72.8085938 L169.011719,92.3203125 C169.011719,96.328125 169.820312,97.4882812 172.351562,97.4882812 L172.351562,99 C170.523438,98.9296875 166.445312,98.71875 162.964844,98.71875 C159.238281,98.71875 155.265625,98.9296875 153.472656,99 L153.472656,97.4882812 C155.335938,97.4882812 156.074219,96.328125 156.074219,92.3203125 L156.074219,68.90625 C156.074219,65.8828125 155.265625,64.3710938 153.261719,64.3710938 C150.589844,64.3710938 148.058594,66.515625 148.058594,69.5390625 L148.058594,92.3203125 C148.058594,96.328125 148.726562,97.4882812 150.660156,97.4882812 L150.660156,99 C149.007812,98.9296875 145.351562,98.71875 141.871094,98.71875 C137.863281,98.71875 133.152344,98.9296875 131.078125,99 L131.078125,97.4882812 C134.03125,97.4882812 135.121094,96.328125 135.121094,92.3203125 L135.121094,69.46875 C135.121094,65.1445312 134.101562,63.140625 131.078125,63.140625 L131.078125,61.6289062 C132.589844,61.7695312 134.101562,61.8398438 135.542969,61.8398438 C140.359375,61.8398438 144.472656,61.5585938 148.058594,60.8554688 L148.058594,66.0234375 C150.238281,62.1914062 153.964844,60.609375 158.78125,60.609375 C163.175781,60.609375 165.566406,61.8398438 166.9375,63.4921875 C167.640625,64.3359375 168.167969,65.4257812 168.484375,66.8671875 C171.121094,62.015625 175.339844,60.609375 180.472656,60.609375 C184.867188,60.609375 187.222656,61.8398438 188.59375,63.4921875 C190.035156,65.2148438 190.703125,67.8867188 190.703125,72.8085938 Z M227.792969,61.9101562 C229.515625,61.9101562 232.222656,61.8398438 233.3125,61.6289062 L233.3125,63.140625 C231.519531,63.8085938 229.796875,65.4609375 228.214844,70.1367188 L219.214844,96.9257812 L216.191406,105.609375 C215.3125,108.070312 214.398438,109.722656 213.027344,110.8125 C211.726562,111.832031 209.863281,112.535156 206.3125,112.535156 C202.375,112.535156 196.539062,110.8125 196.539062,105.785156 C196.539062,102.375 199.351562,100.230469 203.570312,100.230469 C207.542969,100.230469 210.074219,102.023438 210.074219,105.539062 C210.074219,107.648438 208.632812,110.074219 205.398438,111.09375 C206.101562,111.234375 207.261719,111.234375 207.824219,111.234375 C210.917969,111.234375 213.378906,109.441406 214.679688,105.46875 L215.066406,104.308594 L198.261719,67.1835938 C196.609375,63.4921875 195.097656,63.140625 194.078125,63.140625 L194.078125,61.6289062 C197.910156,61.9101562 202.199219,62.0507812 205.820312,62.0507812 C210.285156,62.0507812 213.378906,61.8398438 216.261719,61.6289062 L216.261719,63.140625 C214.082031,63.140625 211.9375,63.1757812 211.9375,64.7578125 C211.9375,65.0742188 212.007812,65.4257812 212.21875,65.8828125 L221.113281,86.9765625 L224.101562,77.765625 C225.085938,74.8476562 225.472656,72.3867188 225.472656,70.3828125 C225.472656,65.671875 223.1875,63.3515625 220.199219,63.140625 L220.199219,61.6289062 C222.238281,61.8398438 226.035156,61.9101562 227.792969,61.9101562 Z M289.914062,48.1640625 C286.609375,48.1640625 284.078125,48.09375 280.492187,47.953125 L280.492187,49.3945312 C283.9375,49.5351562 286.257812,50.9765625 286.257812,54.7382812 C286.257812,57.1992188 285.238281,60.6796875 282.847656,65.4609375 L279.578125,71.9648438 L269.3125,52.2070312 C269.101562,51.7851562 268.996094,51.3984375 268.996094,51.1171875 C268.996094,49.5 271.773437,49.4648438 274.796875,49.4648438 L274.796875,47.953125 C269.980469,48.1640625 263.828125,48.375 258.941406,48.375 C255.074219,48.375 251.980469,48.234375 249.027344,47.953125 L249.027344,49.4648438 C250.011719,49.4648438 251.523437,50.484375 253.175781,53.5078125 L266.5,78.1171875 L266.5,91.3710938 C266.5,96.609375 265.796875,97.3476562 261.402344,97.5585938 L261.402344,99 C264.003906,98.859375 268.960937,98.7890625 273.847656,98.7890625 C278.3125,98.7890625 283.445312,98.859375 286.222656,99 L286.222656,97.5585938 C281.933594,97.3476562 281.125,96.609375 281.125,91.3710938 L281.125,72.2109375 L287.804687,58.9570312 C290.757812,53.1210938 293.21875,50.484375 295.46875,49.3945312 L295.46875,47.953125 C294.027344,48.09375 291.777344,48.1640625 289.914062,48.1640625 Z M316.773438,60.609375 C327.917969,60.609375 335.265625,65.8125 335.265625,80.3671875 C335.265625,94.8867188 327.917969,100.019531 316.773438,100.019531 C305.59375,100.019531 298.246094,94.8867188 298.246094,80.3671875 C298.246094,65.8125 305.59375,60.609375 316.773438,60.609375 Z M316.773438,62.0507812 C313.890625,62.0507812 311.710938,67.4648438 311.710938,80.3671875 C311.710938,93.234375 313.890625,98.578125 316.773438,98.578125 C319.65625,98.578125 321.800781,93.234375 321.800781,80.3671875 C321.800781,67.4648438 319.65625,62.0507812 316.773438,62.0507812 Z M358.257812,60.609375 C369.402344,60.609375 376.75,65.8125 376.75,80.3671875 C376.75,94.8867188 369.402344,100.019531 358.257812,100.019531 C347.078125,100.019531 339.730469,94.8867188 339.730469,80.3671875 C339.730469,65.8125 347.078125,60.609375 358.257812,60.609375 Z M358.257812,62.0507812 C355.375,62.0507812 353.195312,67.4648438 353.195312,80.3671875 C353.195312,93.234375 355.375,98.578125 358.257812,98.578125 C361.140625,98.578125 363.285156,93.234375 363.285156,80.3671875 C363.285156,67.4648438 361.140625,62.0507812 358.257812,62.0507812 Z M408.953125,60.609375 C403.785156,60.609375 399.8125,62.1914062 397.492188,66.0234375 L397.492188,60.8554688 C393.90625,61.5585938 389.792969,61.8398438 384.976562,61.8398438 C383.535156,61.8398438 382.023438,61.7695312 380.511719,61.6289062 L380.511719,63.140625 C383.535156,63.140625 384.554688,65.1445312 384.554688,69.46875 L384.554688,92.3203125 C384.554688,96.328125 383.464844,97.4882812 380.511719,97.4882812 L380.511719,99 C382.585938,98.9296875 387.296875,98.71875 391.304688,98.71875 C395.066406,98.71875 399.003906,98.9296875 400.832031,99 L400.832031,97.4882812 C398.371094,97.4882812 397.492188,96.328125 397.492188,92.3203125 L397.492188,69.5390625 C397.492188,66.515625 400.023438,64.3710938 402.695312,64.3710938 C405.191406,64.3710938 406.210938,65.8828125 406.210938,68.90625 L406.210938,92.3203125 C406.210938,96.328125 405.367188,97.4882812 402.90625,97.4882812 L402.90625,99 C404.839844,98.9296875 409.09375,98.71875 413.136719,98.71875 C416.863281,98.71875 421.257812,98.9296875 423.191406,99 L423.191406,97.4882812 C420.273438,97.4882812 419.183594,96.328125 419.183594,92.3203125 L419.183594,72.8085938 C419.183594,67.8867188 418.515625,65.2148438 417.074219,63.4921875 C415.703125,61.8398438 413.347656,60.609375 408.953125,60.609375 Z" id="Jimmy-Yoon"></path>
+            <path d="M119.38098,77 C118.02098,85.5 116.66098,99.27 118.19098,104.71 C116.15098,106.92 112.24098,106.07 109.52098,103.18 C106.12098,98.25 109.52098,84.99 112.75098,78.36 C105.10098,80.06 98.9809803,81.76 92.6909803,81.76 C86.5709803,81.76 80.7909803,73.94 82.3209803,71.05 C88.2709803,67.99 98.4709803,65.95 105.27098,64.76 C123.29098,61.36 149.47098,60 155.42098,63.23 C157.12098,64.76 156.44098,66.8 154.57098,67.82 C151.17098,69.69 140.97098,72.24 139.78098,73.94 C136.21098,79.04 138.59098,100.46 138.93098,107.6 C138.25098,108.11 133.83098,108.28 132.98098,107.43 C124.99098,98.76 128.22098,84.48 129.92098,75.47 C126.01098,75.81 122.61098,76.32 119.38098,77 Z M159.67098,125.11 C159.33098,126.47 160.18098,128.17 158.82098,129.7 C151.34098,137.35 139.27098,137.01 130.43098,138.03 C122.61098,138.88 114.79098,140.24 104.42098,138.71 C103.23098,138.54 96.0909803,135.14 93.8809803,132.08 C92.8609803,130.72 95.0709803,114.57 97.1109803,107.6 C97.7909803,105.05 100.85098,99.95 104.42098,102.16 C105.61098,106.75 102.21098,116.27 104.08098,121.88 C107.31098,124.43 115.81098,123.24 119.72098,123.92 C127.71098,123.41 142.16098,118.99 144.20098,117.46 C153.55098,115.93 159.84098,122.9 159.67098,125.11 Z M138.76098,32.46 C138.76098,46.91 125.50098,54.39 110.54098,55.58 C97.9609803,56.43 96.6009803,47.25 97.6209803,39.77 C98.6409803,32.46 101.70098,21.07 109.01098,18.35 C110.20098,18.86 113.09098,20.22 114.79098,21.24 C114.96098,20.39 115.30098,19.88 115.98098,19.71 C126.35098,18.35 138.76098,22.43 138.76098,32.46 Z M127.54098,25.66 C126.18098,23.79 116.66098,24.64 113.94098,26.17 C111.90098,31.44 107.14098,38.58 111.05098,46.57 C116.66098,47.93 123.29098,46.23 126.35098,41.98 C129.92098,37.22 131.79098,31.1 127.54098,25.66 Z M255.00366,69.52 C255.34366,77.34 256.70366,89.07 254.15366,99.78 C253.98366,100.8 252.28366,100.46 251.26366,100.46 C248.71366,100.46 245.99366,97.23 244.97366,95.19 C244.63366,84.48 243.61366,69.86 243.61366,60 C243.78366,45.89 235.79366,40.11 243.27366,39.43 C247.52366,39.09 252.62366,53.54 252.96366,58.13 C252.96366,59.49 254.83366,66.46 255.00366,69.52 Z M231.37366,82.61 C233.41366,88.56 230.52366,95.87 222.87366,97.06 C216.41366,97.91 208.42366,93.83 202.47366,91.45 C201.11366,94.85 193.12366,108.11 190.91366,111.17 C187.51366,116.1 181.56366,116.44 177.65366,114.74 C177.82366,98.42 192.10366,75.64 196.69366,61.36 C199.41366,52.86 183.60366,54.9 177.14366,50.14 C172.04366,46.23 173.57366,38.58 175.10366,34.67 C197.20366,40.45 206.55366,43.51 211.48366,53.2 C214.88366,59.83 209.61366,72.07 205.70366,82.27 C220.15366,86.01 227.63366,84.99 231.37366,82.61 Z M312.93634,125.28 C316.16634,127.83 319.56634,126.64 323.47634,127.32 C331.46634,126.81 338.43634,124.26 341.15634,121.88 C350.67634,121.88 353.39634,128.85 353.22634,131.06 C352.37634,145 324.32634,144.66 312.59634,142.11 C308.68634,141.26 300.52634,132.25 300.52634,124.77 C300.52634,120.18 303.41634,115.42 307.49634,112.87 C309.70634,112.36 313.27634,110.32 315.14634,108.96 C319.39634,103.01 317.52634,99.61 319.22634,91.62 C308.51634,91.62 298.31634,97.23 287.94634,97.23 C281.82634,97.23 276.04634,89.07 277.57634,86.86 C283.52634,84.31 294.23634,81.76 301.03634,80.74 C319.05634,78.02 337.92634,76.66 343.87634,79.21 C345.57634,80.57 345.40634,84.14 343.53634,84.99 C338.09634,87.54 330.27634,88.05 326.70634,90.6 C327.72634,100.97 327.72634,110.83 323.64634,116.78 C319.90634,119.84 315.65634,114.57 311.74634,115.59 C310.89634,118.48 311.40634,123.24 312.93634,125.28 Z M316.84634,23.62 C317.18634,24.47 316.16634,27.36 313.95634,26.68 C310.72634,25.83 311.74634,26 303.92634,23.96 C302.22634,23.45 297.29634,19.03 294.91634,16.65 C291.00634,12.91 276.38634,5.94 285.22634,-0.01 C285.56634,-0.18 286.58634,-0.18 286.92634,0.16 C293.04634,4.41 304.43634,6.11 308.51634,12.06 C309.53634,13.42 316.16634,20.56 316.84634,23.62 Z M334.18634,67.14 C332.31634,68.67 328.57634,67.82 327.55634,68.16 C318.88634,70.37 300.01634,73.26 293.55634,67.48 C286.75634,61.19 292.53634,53.2 301.71634,46.23 C303.07634,45.38 307.66634,40.79 308.00634,38.41 C300.01634,35.35 286.75634,41.13 280.29634,36.2 C278.42634,34.84 278.76634,30.08 281.82634,27.87 C290.49634,27.19 302.22634,29.4 311.91634,31.95 C326.53634,35.69 322.96634,44.19 314.46634,50.82 C311.23634,53.37 306.81634,57.28 303.58634,60.17 C307.66634,62.21 320.75634,60.68 324.32634,60.17 C324.15634,56.43 317.18634,48.1 326.53634,48.44 C334.52634,54.05 336.56634,61.36 334.18634,67.14 Z" id="윤지훈" opacity="0.200000018"></path>
+        </g>
+    </g>
+</svg>
             </div>
-
-            <div class="description  margins_large">
-
-                <div class="parallax-container">
-                    <div class="parallax"><img src="img/self.jpg" alt=""></div>
-                </div>
-                <figure class="self_head">
-                    <img src="img/self_head.jpg" alt="">
-                </figure>
-
-
-                <div class="description_container">
-                    <p>Hi there,</p>
-                    <p>I’m Jimmy Yoon, a digital designer that likes working in all steps of the design process, from user experience resesarch, to interface design, to even front-end development.</p>
-                    <p>I was originally born in Chicago, but spent the latter half of my teenage years in Singapore. I graduated from Northwestern University in June, 2016.</p>
-                    <p>I design because I want to create solutions for people that impact their lives in a meaningful way. My hope is for users to have experiences they enjoy and remember.</p>
-                </div>
-
-
-            </div>
-
-        </section>
-
-        <div class="work_overlay hide">
-            <div class="body">
-                <header>
-                    <div class="exit_contain">
-                        <div class="exit"></div>
-                    </div>
-                    <figure>
-                        <img src="img/pulseband/pb_screens.png" alt="">
-                    </figure>
-                    <h2>Pulseband</h2>
-                    <div class="line"></div>
-                    <h3>
-                            Client: Designation Labs <br>
-                            Role: UI Design, Front-End Dev
-                        </h3>
-                </header>
-
-                <div class="content margins_large">
-                    <h2>The Challenge</h2>
-
-                    <p>
-                        DESIGNATION Labs gave my team a project to design a mobile companion app for their product, the Pulseband, a piece of wearable health technology that monitors a user’s heart statistics and condition. Through domain research and interviews, our team concluded that a lot of people don’t have clear, fast, or efficient ways to monitor the heart health and progress of themselves, loved ones, or patients.
-                    </p>
-
-                    <figure class="img_normal">
-                        <img src="img/pulseband/sketch1.jpg" alt="">
-                        <figcaption>Ideating different dashboards for the interface</figcaption>
-                    </figure>
-
-                    <h2>The Solution</h2>
-
-                    <p>
-                        The UX research showed that users want an app that utilizes the data in a meaningful way, provides motivation, and is encouraging. We used that information to design an app that was easily understandable, provided actionable recommendations, and gave encouragement via an online social circle.
-                    </p>
-                    <p>
-                        Our main goals were to make the UI design help the user identify their heart’s current condition as well as what they could do to improve their health, along with making sure that the UI design followed current aesthetic trends. For the front-end development, this pertained more to the marketing website, which I designed and coded. The main goals for the website were to make the product appealing and to showcase the companion app and its features.
-                    </p>
-
-                    <p>
-                        Below are some exploratory style tiles, each trying to encompass a different type of aesthetic.
-                    </p>
-
-                    <div class="slideshow_contain margins_fix">
-                        <ul class="slideshow margins_large">
-                            <li>
-                                <figure>
-                                    <img src="img/pulseband/pb_tile1.png" alt="">
-                                    <figcaption>Style Tile #1</figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/pulseband/pb_tile2.png" alt="">
-                                    <figcaption>Style Tile #2</figcaption>
-                                </figure>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <p>
-                        Style #1 was chosen to be applied to the companion app. This approach was to use accent colors on a white background to emphasize the heart’s current status or highlight different areas of the app.
-                    </p>
-
-                    <figure class="full_span margins_large margins_fix">
-                        <img class="full_width" src="img/pulseband/pb_phones_transp.png" alt="">
-                    </figure>
-
-                    <p>
-                        For the marketing website, the approach was to make it friendly and clean. Below is the style guide of the website along with mock-ups. The aesthetic taken with the design, specifically the color palette, was blue-themed because the color scheme resonated with our logo; we also felt that the color scheme was inviting.
-                    </p>
-
-                    <figure class="full_span margins_large">
-                        <img class="mid_span" src="img/pulseband/pb_styleguide.png" alt="" class="full_width">
-                    </figure>
-                    
-                    <figure class="full_span margins_large">
-                        <img class="mid_span" src="img/pulseband/landingpage.jpg" alt="">
-                    </figure>
-
-                    <figure class="full_span margins_large">
-                        <img class="full_width" src="img/pulseband/pb_site_screens.png" alt="">
-                    </figure>
-
-                    <a href="sites/pulseband/index.html" class="button" target="_blank">Visit Live Site</a>
-
-                    <div class="bottom_buttons">
-                        <div class="return">
-                            <img src="img/logo.svg" alt="">
-                            <h4>Return to <br>Portfolio</h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div class="body">
-                <header>
-                    <div class="exit_contain">
-                        <div class="exit"></div>
-                    </div>
-                    <figure>
-                        <img src="img/mobiledoorman/phone_hand.jpg" alt="">
-                    </figure>
-                    <h2>Mobile Doorman</h2>
-                    <div class="line"></div>
-                    <h3>
-                    Client: Mobile Doorman <br>
-                    Role: UI Design
-                </h3>
-                </header>
-
-                <div class="content margins_large">
-                    <h2>The Challenge</h2>
-
-                    <p>
-                        Mobile Doorman is a company trying to create a virtual experience as an intermediary between apartment tenants and the apartment management. They gave our UI team the task to help design their mobile interface, based on wireframes that were already produced. Each designer in our team worked together on the competitive analysis but designed different styles of the mobile app to offer to the client. The client asked us to stick to a limited color palette; this was to try and make the app adaptable to any property brand. The client also asked to create an Android design if time permitted.
-                    </p>
-
-                    <figure class="full_span">
-                        <img src="img/mobiledoorman/wireframes.png" class="full_width">
-                        <figcaption>
-                            Snapshot of wireframes we were given
-                            <br> View the wireframes <a href="files/mobiledoorman/MB%20Wireframes.pdf" target="_blank">here</a>
-                        </figcaption>
-                    </figure>
-
-
-                    <h2>The Solution</h2>
-
-                    <p>
-                        Our main goals were to make the design inviting to use, utilitarian, and visually aesthetic by following current design trends. After designing a variety of style guides, I chose to design the product to make it look clean and modern, but also, adaptable to different property colors.
-                    </p>
-
-                    <div class="slideshow_contain margins_fix">
-                        <ul class="slideshow margins_large">
-                            <li>
-                                <figure>
-                                    <img src="img/mobiledoorman/style1.png" alt="">
-                                    <figcaption>Style Tile #1</figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/mobiledoorman/style2.png" alt="">
-                                    <figcaption>Style Tile #2</figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/mobiledoorman/style3.png" alt="">
-                                    <figcaption>Style Tile #3</figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/mobiledoorman/style4.png" alt="">
-                                    <figcaption>Style Tile #4</figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="img/mobiledoorman/style5.png" alt="">
-                                    <figcaption>Style Tile #5</figcaption>
-                                </figure>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <p>
-                        Style Tile #2 was chosen to design the interface. Using the iOS user interface guidelines and Google’s Material Design guidelines, I tried to design both an iOS and Android interface of the app. Below are mock up screens of the interface I designed.
-                    </p>
-
-                    <figure class="full_span margins_large phone_container">
-
-
-                        <ul class="phone_screens_ios">
-
-                            <li class="active"><img src="img/mobiledoorman/ios1.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/ios2.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/ios3.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/ios4.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/ios5.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/ios6.png" alt=""></li>
-                        </ul>
-
-                        <figure class="phone_svg">
-                            <img src="img/mobiledoorman/iphone_phone.svg" alt="">
-                            <img src="img/arrow.svg" alt="" class="left_arrow">
-                            <img src="img/arrow.svg" alt="" class="right_arrow">
-                        </figure>
-                    </figure>
-
-                    <figure class="full_span margins_large phone_container">
-
-                        <ul class="phone_screens_android">
-
-                            <li class="active"><img src="img/mobiledoorman/android1.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/android2.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/android3.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/android4.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/android5.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/android6.png" alt=""></li>
-                            <li><img src="img/mobiledoorman/android7.png" alt=""></li>
-                        </ul>
-
-                        <figure class="phone_svg">
-                            <img src="img/mobiledoorman/android_phone.svg" alt="">
-                            <img src="img/arrow.svg" alt="" class="left_arrow">
-                            <img src="img/arrow.svg" alt="" class="right_arrow">
-                        </figure>
-
-                    </figure>
-
-
-                    <div class="bottom_buttons">
-                        <div class="return">
-                            <img src="img/logo.svg" alt="">
-                            <h4>Return to <br>Portfolio</h4>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="body">
-                <header>
-                    <div class="exit_contain">
-                        <div class="exit"></div>
-                    </div>
-                    <figure>
-                        <img src="img/desklogic/responsive.png" alt="">
-                    </figure>
-                    <h2>DeskLogic Online Forms</h2>
-                    <div class="line"></div>
-                    <h3>
-                    Client: Desklogic<br>
-                    Role: UI Design, Front-End Dev
-                </h3>
-                </header>
-
-                <div class="content margins_large">
-                    <h2>The Challenge</h2>
-
-                    <p>
-                        I was given a front-end development project to create the website for a company called DeskLogic, whose goal it was to try and help furnish office spaces based on a questionnaire that potential users would fill out. My job was to create a responsive design of the online forms that the user would fill out. I was given previous UX and UI work done for DeskLogic, but the forms portion that was completed for the UX had not been fleshed out in the UI. I chose to take some creative liberty and create a UI design of my own.
-                    </p>
-
-                    <figure class="full_span">
-                        <img src="img/desklogic/wireframe.jpg" class="small_span">
-                        <figcaption>
-                            Snapshot of wireframes we were given
-                            <br> View the wireframes <a href="files/desklogic/DeskLogic_FINAL%20wireframes.pdf" target="_blank">here</a>
-                        </figcaption>
-                    </figure>
-
-
-                    <h2>The Solution</h2>
-
-                    <p>
-                        Since the UX and UI (to an extent) had already been finished for me, it was my job to code the website using HTML, CSS and Javascript, along with jQuery. As previously mentioned, I tried to design the UI in a way to make it look and feel modern, while also trying to make sure it looked easy to use. Below is the style guide of the website I designed.
-
-                    </p>
-
-
-                    <figure class="full_span">
-                        <img src="img/desklogic/dl_styleguide.png" alt="" class="mid_span">
-                    </figure>
-
-
-                    <p>
-                        Here are a few mock up screens of the website on a variety of screen sizes.
-                    </p>
-
-                    <div class="full_span margins_large dl_mocks">
-                        <figure>
-                            <img src="img/desklogic/tablet_phone_facing.png" alt="" class="mid_span">
-                        </figure>
-
-                        <figure>
-                            <img src="img/desklogic/macbook_facing.png" alt="" class="mid_span">
-                        </figure>
-                        <figure>
-                            <img src="img/desklogic/imac_facing.png" alt="" class="mid_span">
-                        </figure>
-                    </div>
-
-                    <a href="sites/desklogic/index.html" class="button" target="_blank">Visit Live Site</a>
-
-                    <div class="bottom_buttons">
-                        <div class="return">
-                            <img src="img/logo.svg" alt="">
-                            <h4>Return to <br>Portfolio</h4>
-                        </div>
-                    </div>
-
-                </div>
+            <h2 class="c-main-header__blurb l-main-header__blurb t2">I’m a product designer based in Chicago, IL currently working at <a href="https://trunkclub.com" class="u-text-white" target="_blank">Trunk Club</a>. Learn more about me
+                <a href="about" class="u-text-white">here</a>.</h2>
+            <ul class="c-social-media-list l-social-media-list">
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://www.linkedin.com/in/jimmyjyoon/" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-linkedin2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://twitter.com/jimmyjyoon" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://www.behance.net/jyoon93" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-behance"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <div class="c-main-header__check-my-work l-main-header__check-my-work u-text-center">
+                <p class="s1">Stuff I've worked on</p>
+                <svg class="c-main-header__arrow-icon l-main-header__arrow-icon">
+                    <use xlink:href="#icon-arrow-down2"></use>
+                </svg>
             </div>
         </div>
+    </header>
 
-        <section class="work" id="works">
-            <h2>Featured Work</h2>
-
-            <div class="piece_container margins_large wow fadeInUp">
-                <!-- add margins_large -->
-                <div class="piece">
-                    <header>
-                        <h3>Pulseband</h3>
-                        <div class="line"></div>
-                        <h4>UI Design, Front-End Dev</h4>
-                        <a href="" class="button" data="pulseband">View Case Study</a>
-                        <div class="parallax-container">
-                            <div class="parallax"><img src="img/pulseband/pb_screens.png" alt=""></div>
-                        </div>
-                    </header>
-                </div>
-
-
-
-            </div>
-
-            <div class="piece_container margins_large wow fadeInUp">
-                <!-- add margins_large -->
-                <div class="piece">
-                    <header>
-                        <h3>Mobile Doorman</h3>
-                        <div class="line"></div>
-                        <h4>UI Design</h4>
-                        <a href="" class="button" data="mobiledoorman">View Case Study</a>
-                        <div class="parallax-container">
-                            <div class="parallax"><img src="img/mobiledoorman/phone_hand.jpg" alt=""></div>
-                        </div>
-                    </header>
-                </div>
-
-            </div>
-
-            <div class="piece_container margins_large wow fadeInUp">
-                <!-- add margins_large -->
-                <div class="piece">
-                    <header>
-                        <h3>DeskLogic</h3>
-                        <div class="line"></div>
-                        <h4>UI Design, Front-End Dev</h4>
-                        <a href="" class="button" data="desklogic">View Case Study</a>
-                        <div class="parallax-container">
-                            <div class="parallax"><img src="img/desklogic/responsive.png" alt=""></div>
-                        </div>
-                    </header>
-                </div>
-
-            </div>
-
-            <!--
-        <a href="" class="view_link">View More Works</a>
-        <div class="view_more_works">
-            
+    <section class="l-works-showcase l-container" id="works">
+        <ul class="c-works-showcase__list">
+            <li class="c-showcase-item l-showcase-item u-clearfix">
+                <figure class="c-showcase-item__image-container l-showcase-item__image-container u-float-left">
+                    <img src="img/trunk-requests/thumb.jpg" alt="" class="c-showcase-item__image l-showcase-item__image">
+                </figure>
+                <header class="c-showcase-item__header l-showcase-item__header">
+                    <div class="l-header__showcase-title-group">
+                        <!--                        <img src="img/number2.svg" alt="" class="c-header__showcase-number l-header__showcase-number">-->
+                        <h1 class="t1 l-header__showcase-name">Making it easier for Trunk Club customers to request trunks</h1>
+                    </div>
+                    <div class="c-header__horizontal-divider l-header__horizontal-divider"></div>
+                    <div class="header__showcase-secondary-info">
+                        <p class="t3"><b class="bold">Client:</b> Trunk Club</p>
+                        <p class="t3"><b class="bold">Role:</b> Product Design</p>
+                        <a href="trunk-requests" class="link">View case study &#8594;</a>
+                    </div>
+                </header>
+            </li>
+            <li class="c-showcase-item l-showcase-item u-clearfix">
+                <figure class="c-showcase-item__image-container l-showcase-item__image-container u-float-left">
+                    <img src="img/pinterest-integration/thumb.png" alt="" class="c-showcase-item__image l-showcase-item__image">
+                </figure>
+                <header class="c-showcase-item__header l-showcase-item__header">
+                    <div class="l-header__showcase-title-group">
+                        <!--                        <img src="img/number1.svg" alt="" class="c-header__showcase-number l-header__showcase-number">-->
+                        <h1 class="t1 l-header__showcase-name">Integrating Pinterest into the Trunk Club experience</h1>
+                    </div>
+                    <div class="c-header__horizontal-divider l-header__horizontal-divider"></div>
+                    <div class="header__showcase-secondary-info">
+                        <p class="t3"><b class="bold">Client:</b> Trunk Club</p>
+                        <p class="t3"><b class="bold">Role:</b> Product Design</p>
+                        <a href="pinterest-integration" class="link">View case study &#8594;</a>
+                    </div>
+                </header>
+            </li>
+            <li class="c-showcase-item l-showcase-item u-clearfix">
+                <figure class="c-showcase-item__image-container l-showcase-item__image-container u-float-left">
+                    <img src="img/shair-spotify/thumb.jpg" alt="" class="c-showcase-item__image l-showcase-item__image">
+                </figure>
+                <header class="c-showcase-item__header l-showcase-item__header">
+                    <div class="l-header__showcase-title-group">
+                        <!--                        <img src="img/number3.svg" alt="" class="c-header__showcase-number l-header__showcase-number">-->
+                        <h1 class="t1 l-header__showcase-name">Helping to better connect friends through Spotify</h1>
+                    </div>
+                    <div class="c-header__horizontal-divider l-header__horizontal-divider"></div>
+                    <div class="header__showcase-secondary-info">
+                        <p class="t3"><b class="bold">Client:</b> Northwestern University</p>
+                        <p class="t3"><b class="bold">Role:</b> UX/UI Design</p>
+                        <a href="shair-spotify" class="link">View case study &#8594;</a>
+                    </div>
+                </header>
+            </li>
+        </ul>
+    </section>
+    <footer class="c-footer u-padding-top u-padding-bottom">
+        <div class="l-container u-text-left">
+            <p class="t3">Jimmy J. Yoon &#169; 2018</p>
+            <p class="t3">Contact me at <a href="" class="u-text-white">jimmyjyoon@gmail.com</a></p>
+            <ul class="c-social-media-list l-social-media-list">
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://www.linkedin.com/in/jimmyjyoon/" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-linkedin2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://twitter.com/jimmyjyoon" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="c-social-media-list__icon l-social-media-list__icon">
+                    <a href="https://www.behance.net/jyoon93" class="c-social-media-list__link" target="_blank">
+                        <svg class="social-media-list__svg">
+                             <use xlink:href="#icon-behance"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
--->
 
-        </section>
+    </footer>
 
-        <!--    <div class="quote_image"></div>-->
-
-        <section class="resume" id="resume">
-            <h2>Resume</h2>
-
-            <div class="timeline margins_large">
-                <div class="block clearfix">
-                    <div class="block_image">
-                        <img src="img/tc-monogram.png" alt="">
-                    </div>
-                    <div class="block_content wow fadeInRight">
-                        <h3>July 2016 - Present</h3>
-                        <h4>Trunk Club</h4>
-                        <h5>Product Designer | Chicago, IL</h5>
-                        <p>I work as a product designer on the design team at <a href="http://trunkclub.com" target="_blank">Trunk Club</a>, creating and iterating our public and internal digital experiences.</p>
-                    </div>
-                </div>
-                <div class="block clearfix">
-                    <div class="block_image nu-purple">
-                        <img src="img/nu_icon.png" alt="">
-                    </div>
-                    <div class="block_content  wow fadeInLeft">
-                        <h3>Sept 2012 - June 2016</h3>
-                        <h4>Northwestern University</h4>
-                        <h5>B.S.: Radio/TV/Film | Evanston, IL</h5>
-                        <p>Along with my B.S. in RTVF, I also completed the Interactive Arts module within my department and the design certificate within the <a href="https://segal.northwestern.edu/" target="_blank">Segal Design Institute</a>.</p>
-                    </div>
-                </div>
-
-                <div class="block clearfix">
-                    <div class="block_image sam-purple">
-                        <img src="img/sam_logo.jpg" alt="">
-                    </div>
-                    <div class="block_content wow fadeInRight">
-                        <h3>Oct 2013 - June 2016</h3>
-                        <h4>Northwestern University - Student Affairs Marketing</h4>
-                        <h5>Graphic Designer | Evanston, IL</h5>
-                        <p>I worked as a graphic designer on a variety of projects from different departments at Northwestern. Many of the designed items include things such as posters, TV ads, and brochures. Example pieces can be found on my <a href="https://www.behance.net/jyoon93" target="_blank">Behance site</a>.</p>
-                    </div>
-                </div>
-
-                <div class="block clearfix">
-                    <div class="block_image">
-                        <img src="img/designation_logo.png" alt="">
-                    </div>
-                    <div class="block_content wow fadeInLeft">
-                        <h3>Jun - Sept 2015</h3>
-                        <h4>Designation Labs</h4>
-                        <h5>UI Designer + Front-End Developer | Chicago, IL</h5>
-                        <p>I was immersed in a program to learn full-stack design. During the <a href="http://designation.io/" target="_blank">program</a>, I worked on exploratory start-up products as well as projects from existing start-ups.</p>
-                    </div>
-                </div>
-                <a href="/files/jimmy-yoon-resume.pdf" class="view_link" target="_blank">View full resume here</a>
-
-            </div>
-        </section>
-
-        <section class="contact margins_large" id="contact">
-            <h2>Contact Me</h2>
-            <p>Email me at <a href="mailto:jimmyjyoon@gmail.com">jimmyjyoon@gmail.com</a></p>
-            <div class="social_media">
-                <a href="https://www.linkedin.com/in/jimmyjyoon" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://twitter.com/jimmyjyoon" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.behance.net/jyoon93" target="_blank"><i class="fa fa-behance"></i></a>
-            </div>
-        </section>
-
-        <footer>
-            <p>&copy; Copyright 2016 Jimmy J Yoon</p>
-        </footer>
-
-
-        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/materialize.min.js"></script>
-<!--        <script src="js/wow.js"></script>-->
-        <script src="js/script.min.js"></script>
-
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-69777847-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </div>
+    <script src="js/script.js"></script>
 
 </body>
 
