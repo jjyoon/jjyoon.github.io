@@ -42,6 +42,7 @@
 .c-nav__menu-text,
 .c-nav__close-text {
     @include absolutecenter("both");
+    pointer-events: none;
 }
 
 .c-nav__menu {
