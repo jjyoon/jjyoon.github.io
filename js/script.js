@@ -7,11 +7,13 @@ toggleOpen = () => {
     menu.classList.toggle('is-hidden');
 }
 
-if (menuButton) {
-    menuButton.addEventListener("click", toggleOpen);
-} else {
-    whiteMenuButton.addEventListener("click", toggleOpen);
-}
+document.addEventListener("click", function(e) {
+   if ( e.target == menuButton || e.target == whiteMenuButton ) {
+       toggleOpen();
+   } else if (e.target != menuButton || e.target != whiteMenuButton ) {
+       menu.classList.add('is-hidden');
+   }
+});
 
 if (video) {
     video.addEventListener('click', function () {

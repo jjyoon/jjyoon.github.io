@@ -37,6 +37,21 @@
 .bold {
   font-weight: 700; }
 
+.quote {
+  position: relative;
+  font-style: italic;
+  padding-left: 40px;
+  border-left: 5px solid #ccc; }
+  .quote::before {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    content: "\201C";
+    font-size: 2em;
+    color: #aaa; }
+  .quote::after {
+    content: ''; }
+
 .link, .c-nav__menu-link {
   font-family: "Roboto", sans-serif;
   font-size: 1.6em;
