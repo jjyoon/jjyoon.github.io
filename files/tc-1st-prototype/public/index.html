@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Trunk Club</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jTinder.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <header class="main-header">
+            <ul class="list-of-headers">
+                <li class="indiv-header">
+                    <h1>Let's build your trunk</h1>
+                </li>
+                <li class="indiv-header">
+                    <h1>Outfit curation</h1>
+                </li>
+                <li class="indiv-header">
+                    <h1>Your personalized outfits</h1>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <ul class="content-wrapper">
+                <li class="content-blocks">
+                    <h2>What clothing would you like?</h2>
+                    <button class="gender-clothing" data="women">Women's</button>
+                    <button class="gender-clothing" data="men">Men's</button>
+                </li>
+                <li class="content-blocks">
+                    <h2>What types of items are you looking for in your first trunk?</h2>
+                    <form action="" class="clothing-categories">
+                        <ul class="categories-list">
+                            <!--
+                            <li class="clothingCategory">
+                                <input type="checkbox" name="clothingCat" id="tops">
+                                <label for="tops">Tops</label>
+                            </li>
+                            <li class="clothingCategory">
+                                <input type="checkbox" name="clothingCat" id="jeans">
+                                <label for="jeans">Jeans</label>
+                            </li>
+                            <li class="clothingCategory">
+                                <input type="checkbox" name="clothingCat" id="dresses">
+                                <label for="dresses">Dresses</label>
+                            </li>
+                            <li class="clothingCategory">
+                                <input type="checkbox" name="clothingCat" id="shoes">
+                                <label for="shoes">Shoes</label>
+                            </li>
+                            <li class="clothingCategory">
+                                <input type="checkbox" name="clothingCat" id="pants">
+                                <label for="pants">Pants</label>
+                            </li>
+                            <li class="clothingCategory">
+                                <input type="checkbox" name="clothingCat" id="sweaters">
+                                <label for="sweaters">Sweaters</label>
+                            </li>
+-->
+                        </ul>
+                        <input type="submit" value="Continue">
+                    </form>
+                </li>
+                <li class="content-blocks">
+                    <h2>Great! Now tell us which items you like or dislike so we can learn more about your style. We’ll use your feedback to recommend outfits and products we think you’ll love.</h2>
+                    <div id="tinderslide">
+                        <ul>
+                            <!--
+                            <li class="pane1">
+                                <figure>
+                                    <img src="img/women/womens_sweaters_1.png" alt="">
+                                </figure>
+                                <div class="productName" data="sweaters1" data-set="sweaters">Sweaters 1</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane2">
+                                <figure>
+                                    <img src="img/women/womens_sweaters_2.png" alt="">
+                                </figure>
+                                <div class="productName" data="sweaters2" data-set="sweaters">Sweaters 2</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane3">
+                                <figure>
+                                    <img src="img/women/womens_sweaters_3.png" alt="">
+                                </figure>
+                                <div class="productName" data="sweaters3" data-set="sweaters">Sweaters 3</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane4">
+                                <figure>
+                                    <img src="img/women/womens_sweaters_4.png" alt="">
+                                </figure>
+                                <div class="productName" data="sweaters4" data-set="sweaters">Sweaters 4</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane5">
+                                <figure>
+                                    <img src="img/women/womens_sweaters_5.png" alt="">
+                                </figure>
+                                <div class="productName" data="sweaters5" data-set="sweaters">Sweaters 5</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane6">
+                                <figure>
+                                    <img src="img/women/womens_pants_1.png" alt="">
+                                </figure>
+                                <div class="productName" data="pants1" data-set="pants">Pants 1</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane7">
+                                <figure>
+                                    <img src="img/women/womens_pants_2.png" alt="">
+                                </figure>
+                                <div class="productName" data="pants2" data-set="pants">Pants 2</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane8">
+                                <figure>
+                                    <img src="img/women/womens_pants_3.png" alt="">
+                                </figure>
+                                <div class="productName" data="pants3" data-set="pants">Pants 3</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane9">
+                                <figure>
+                                    <img src="img/women/womens_pants_4.png" alt="">
+                                </figure>
+                                <div class="productName" data="pants4" data-set="pants">Pants 4</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane10">
+                                <figure>
+                                    <img src="img/women/womens_pants_5.png" alt="">
+                                </figure>
+                                <div class="productName" data="pants5" data-set="pants">Pants 5</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane11">
+                                <figure>
+                                    <img src="img/women/womens_shoes_1.png" alt="">
+                                </figure>
+                                <div class="productName" data="shoes1" data-set="shoes">Shoes 1</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane12">
+                                <figure>
+                                    <img src="img/women/womens_shoes_2.png" alt="">
+                                </figure>
+                                <div class="productName" data="shoes2" data-set="shoes">Shoes 2</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane13">
+                                <figure>
+                                    <img src="img/women/womens_shoes_3.png" alt="">
+                                </figure>
+                                <div class="productName" data="shoes3" data-set="shoes">Shoes 3</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane14">
+                                <figure>
+                                    <img src="img/women/womens_shoes_4.png" alt="">
+                                </figure>
+                                <div class="productName" data="shoes4" data-set="shoes">Shoes 4</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane15">
+                                <figure>
+                                    <img src="img/women/womens_shoes_5.png" alt="">
+                                </figure>
+                                <div class="productName" data="shoes5" data-set="shoes">Shoes 5</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane16">
+                                <figure>
+                                    <img src="img/women/womens_dresses_1.png" alt="">
+                                </figure>
+                                <div class="productName" data="dresses1" data-set="dresses">Dresses 1</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane17">
+                                <figure>
+                                    <img src="img/women/womens_dresses_2.png" alt="">
+                                </figure>
+                                <div class="productName" data="dresses2" data-set="dresses">Dresses 2</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane18">
+                                <figure>
+                                    <img src="img/women/womens_dresses_3.png" alt="">
+                                </figure>
+                                <div class="productName" data="dresses3" data-set="dresses">Dresses 3</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane19">
+                                <figure>
+                                    <img src="img/women/womens_dresses_4.png" alt="">
+                                </figure>
+                                <div class="productName" data="dresses4" data-set="dresses">Dresses 4</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane20">
+                                <figure>
+                                    <img src="img/women/womens_dresses_5.png" alt="">
+                                </figure>
+                                <div class="productName" data="dresses5" data-set="dresses">Dresses 5</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane21">
+                                <figure>
+                                    <img src="img/women/womens_jeans_1.png" alt="">
+                                </figure>
+                                <div class="productName" data="jeans1" data-set="jeans">Jeans 1</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane22">
+                                <figure>
+                                    <img src="img/women/womens_jeans_2.png" alt="">
+                                </figure>
+                                <div class="productName" data="jeans2" data-set="jeans">Jeans 2</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane23">
+                                <figure>
+                                    <img src="img/women/womens_jeans_3.png" alt="">
+                                </figure>
+                                <div class="productName" data="jeans3" data-set="jeans">Jeans 3</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane24">
+                                <figure>
+                                    <img src="img/women/womens_jeans_4.png" alt="">
+                                </figure>
+                                <div class="productName" data="jeans4" data-set="jeans">Jeans 4</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane25">
+                                <figure>
+                                    <img src="img/women/womens_jeans_5.png" alt="">
+                                </figure>
+                                <div class="productName" data="jeans5" data-set="jeans">Jeans 5</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane26">
+                                <figure>
+                                    <img src="img/women/womens_tops_1.png" alt="">
+                                </figure>
+                                <div class="productName" data="tops1" data-set="Tops">Tops 1</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+                            <li class="pane27">
+                                <figure>
+                                    <img src="img/women/womens_tops_2.png" alt="">
+                                </figure>
+                                <div class="productName" data="tops2" data-set="Tops">Tops 2</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane28">
+                                <figure>
+                                    <img src="img/women/womens_tops_3.png" alt="">
+                                </figure>
+                                <div class="productName" data="tops3" data-set="Tops">Tops 3</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane29">
+                                <figure>
+                                    <img src="img/women/womens_tops_4.png" alt="">
+                                </figure>
+                                <div class="productName" data="tops4" data-set="Tops">Tops 4</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+
+                            </li>
+                            <li class="pane30">
+                                <figure>
+                                    <img src="img/women/womens_tops_5.png" alt="">
+                                </figure>
+                                <div class="productName" data="tops5" data-set="Tops">Tops 5</div>
+                                <div class="actions">
+                                    <a href="#" class="dislike"><i></i></a>
+                                    <a href="#" class="like"><i></i></a>
+                                </div>
+                            </li>
+-->
+
+                        </ul>
+                    </div>
+                    <div class="counter">
+                        <p>Leave feedback on <span class="number-prod-left"></span> product(s)</p>
+                    </div>
+                    <div class="actions">
+                        <a href="#" class="dislike"><i></i></a>
+                        <a href="#" class="like"><i></i></a>
+                    </div>
+                </li>
+                <li class="content-blocks">
+                    <h2>Based on your feedback, we've curated a few outfits for you. You can add individual products or entire outfits to your trunk.</h2>
+                    <ul class="outfit-list">
+                    </ul>
+
+                </li>
+            </ul>
+            <div class="view-trunk"><h1>View trunk</h1></div>
+            <div class="trunk-cart">
+                <h2>To reserve these items, enter a credit card and shipping address. You'll only be charged for the items you end up keeping from your trunk.</h2>
+                <div class="trunk-content"></div>
+                <button class="checkout-trunk">Enter credit card</button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- jQuery lib -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- transform2d lib -->
+    <script type="text/javascript" src="js/jquery.transform2d.js"></script>
+
+    <!-- jTinder lib -->
+    <script type="text/javascript" src="js/jquery.jTinder.js"></script>
+
+    <script src="js/mens_products.json"></script>
+
+    <script src="js/womens_products.json"></script>
+
+    <script src="js/outfits.json"></script>
+
+    <!-- jTinder initialization script -->
+    <!--    <script src="js/main.js"></script>-->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

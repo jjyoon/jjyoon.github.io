@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Trunk</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Request-Trunk-Form---Choose-Trunk-Type-Copy" transform="translate(-12.000000, -631.000000)" fill="#999999">
+            <g id="Group-7" transform="translate(12.000000, 629.000000)">
+                <g id="Icon-/-Trunk" transform="translate(0.000000, 2.000000)">
+                    <path d="M23,20.823 L23,20.323 L1,20.323 L1,4.31 L23,4.31 L23,20.323 L23.001,20.323 L23,20.823 Z M12,1 C13.827,1 15.498,1.87 16.555,3.31 L7.445,3.31 C8.501,1.87 10.172,1 12,1 L12,1 Z M23,3.31 L17.739,3.31 C16.545,1.265 14.389,0 12,0 C9.61,0 7.453,1.265 6.261,3.31 L1,3.31 C0.448,3.31 0,3.759 0,4.31 L0,20.323 C0,20.874 0.448,21.323 1,21.323 L23,21.323 C23.552,21.323 24,20.874 24,20.323 L24,4.31 C24,3.759 23.552,3.31 23,3.31 L23,3.31 Z" id="Page-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

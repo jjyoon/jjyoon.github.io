@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>You@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7" transform="translate(-302.000000, -78.000000)" fill="#000000">
+            <g id="Group">
+                <g id="Nav-bar" transform="translate(0.000000, 59.965422)">
+                    <g id="Icon-/-Account" transform="translate(302.000000, 18.450899)">
+                        <path d="M20.01,20.749 L18.747,20.749 C18.042,16.556 14.395,13.349 10.005,13.349 C5.615,13.349 1.969,16.556 1.263,20.749 L0,20.749 C0.718,15.864 4.924,12.099 10.005,12.099 C15.086,12.099 19.292,15.864 20.01,20.749 L20.01,20.749 Z M4.891,5.125 C4.891,2.299 7.19,0 10.016,0 C12.842,0 15.141,2.299 15.141,5.125 C15.141,7.951 12.842,10.25 10.016,10.25 C7.19,10.25 4.891,7.951 4.891,5.125 L4.891,5.125 Z M6.141,5.125 C6.141,7.261 7.879,9 10.016,9 C12.153,9 13.891,7.261 13.891,5.125 C13.891,2.988 12.153,1.25 10.016,1.25 C7.879,1.25 6.141,2.988 6.141,5.125 L6.141,5.125 Z" id="Imported-Layers"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

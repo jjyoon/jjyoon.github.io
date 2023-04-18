@@ -1,0 +1,1222 @@
+/////////////////////// WOMEN'S OUTFITS /////////////////////////////
+
+var wOutfits = {
+    "tops1": [
+        {
+            "imgPath": "/tops_1.png",
+            "brand": "James Perse",
+            "price": "135"
+        },
+        {
+
+            "imgPath": "/jeans_similar_1.png",
+            "brand": "BLANKNYC",
+            "price": "88"
+        },
+        {
+
+            "imgPath": "/shoes_similar_3.png",
+            "brand": "Stuart Weitzman",
+            "price": "798"
+        },
+    ],
+    "tops2": [
+        {
+
+            "imgPath": "/tops_2.png",
+            "brand": "NYDJ",
+            "price": "58"
+        },
+        {
+            "imgPath": "/jeans_similar_2.png",
+            brand: "Paige",
+            price: "239",
+        },
+        {
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ],
+    "tops3": [
+        {
+            "imgPath": "/tops_3.png",
+            "brand": "Theory",
+            "price": "40"
+        },
+        {
+
+            "imgPath": "/jeans_similar_5.png",
+            brand: "Jen7",
+            price: "159",
+        },
+        {
+
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ],
+    "tops4": [
+        {
+            "imgPath": "/tops_4.png",
+            brand: "Eileen Fisher",
+            price: "98",
+        },
+        {
+            "imgPath": "/jeans_similar_3.png",
+            brand: "Frame",
+            price: "239",
+        },
+    ],
+    "tops5": [
+        {
+            "imgPath": "/tops_5.png",
+            brand: "Barbour",
+            price: "99",
+        },
+        {
+            "imgPath": "/jeans_similar_4.png",
+            brand: "Wit & Wisdom",
+            price: "68",
+        },
+        {
+            "imgPath": "/shoes_similar_4.png",
+            brand: "adidas",
+            price: "84",
+        },
+    ],
+    "jeans1": [
+        {
+            "imgPath": "/jeans_1.png",
+            brand: "Paige",
+            price: "189",
+        },
+        {
+            "imgPath": "/sweaters_similar_1.png",
+            brand: "Joie",
+            price: "298",
+        },
+        {
+            "imgPath": "/shoes_similar_5.png",
+            brand: "Tory Burch",
+            price: "225",
+        },
+    ],
+    "jeans2": [
+        {
+            "imgPath": "/jeans_2.png",
+            brand: "rag & bone/JEAN",
+            price: "175",
+        },
+        {
+            "imgPath": "/sweaters_similar_3.png",
+            brand: "Caslon",
+            price: "49",
+        },
+        {
+            "imgPath": "/shoes_similar_4.png",
+            brand: "adidas",
+            price: "84",
+        },
+    ],
+    "jeans3": [
+        {
+            "imgPath": "/jeans_3.png",
+            brand: "7 For All Mankind",
+            price: "189",
+        },
+        {
+            "imgPath": "/tops_similar_2.png",
+            brand: "Trouvé",
+            price: "45",
+        },
+        {
+            "imgPath": "/shoes_similar_1.png",
+            brand: "Steve Madden",
+            price: "98",
+        },
+    ],
+    "jeans4": [
+        {
+            "imgPath": "/jeans_4.png",
+            brand: "DL1961",
+            price: "178",
+        },
+        {
+            "imgPath": "/tops_similar_5.png",
+            brand: "Rails",
+            price: "148",
+        },
+        {
+            "imgPath": "/sweaters_similar_2.png",
+            brand: "Bobeau",
+            price: "58",
+        },
+    ],
+    "jeans5": [
+        {
+            "imgPath": "/jeans_5.png",
+            brand: "J Brand",
+            price: "228",
+        },
+        {
+            "imgPath": "/sweaters_similar_5.png",
+            brand: "Halogen",
+            price: "79",
+        },
+        {
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ],
+    "dresses1": [
+        {
+            "imgPath": "/dresses_1.png",
+            brand: "French Connection",
+            price: "158",
+        },
+        {
+            "imgPath": "/sweaters_similar_2.png",
+            brand: "Bobeau",
+            price: "58",
+        },
+        {
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ],
+    "dresses2": [
+        {
+            "imgPath": "/dresses_2.png",
+            brand: "Vince",
+            price: "395",
+        },
+        {
+            "imgPath": "/shoes_similar_4.png",
+            brand: "adidas",
+            price: "84",
+        },
+    ],
+    "dresses3": [
+        {
+            "imgPath": "/dresses_3.png",
+            brand: "Eliza J",
+            price: "98",
+        },
+        {
+            "imgPath": "/shoes_similar_5.png",
+            brand: "Tory Burch",
+            price: "225",
+        },
+    ],
+    "dresses4": [
+        {
+            "imgPath": "/dresses_4.png",
+            brand: "Vince Camuto",
+            price: "88",
+        },
+        {
+            "imgPath": "/shoes_similar_3.png",
+            brand: "Stuart Weitzman",
+            price: "798",
+        },
+    ],
+    "dresses5": [
+        {
+            "imgPath": "/dresses_5.png",
+            brand: "Adrianna Papell",
+            price: "160",
+        },
+        {
+            "imgPath": "/shoes_similar_1.png",
+            brand: "Steve Madden",
+            price: "98",
+        },
+    ],
+    "shoes1": [
+        {
+            "imgPath": "/shoes_1.png",
+            brand: "Sole Society",
+            price: "69",
+        },
+        {
+            "imgPath": "/dresses_similar_5.png",
+            brand: "Adrianna Papell",
+            price: "178",
+        },
+    ],
+    "shoes2": [
+        {
+            "imgPath": "/shoes_2.png",
+            brand: "MICHAEL Michael Kors",
+            price: "184",
+        },
+        {
+            "imgPath": "/jeans_similar_5.png",
+            brand: "Jen7",
+            price: "159",
+        },
+        {
+            "imgPath": "/tops_similar_1.png",
+            brand: "rag & bone/JEAN",
+            price: "130",
+        },
+    ],
+    "shoes3": [
+        {
+            "imgPath": "/shoes_3.png",
+            brand: "Marc Fisher LTD",
+            price: "228",
+        },
+        {
+            "imgPath": "/sweaters_similar_5.png",
+            brand: "Halogen",
+            price: "79",
+        },
+        {
+            "imgPath": "/jeans_similar_1.png",
+            brand: "BLANKNYC",
+            price: "88",
+        },
+    ],
+    "shoes4": [
+        {
+            "imgPath": "/shoes_4.png",
+            brand: "adidas",
+            price: "79",
+        },
+        {
+            "imgPath": "/tops_similar_4.png",
+            brand: "Halogen",
+            price: "39",
+        },
+        {
+            "imgPath": "/jeans_similar_1.png",
+            brand: "BLANKNYC",
+            price: "88",
+        },
+    ],
+    "shoes5": [
+        {
+            "imgPath": "/shoes_5.png",
+            brand: "Tory Burch",
+            price: "225",
+        },
+        {
+            "imgPath": "/dresses_similar_3.png",
+            brand: "Eliza J",
+            price: "98",
+        },
+    ],
+    "pants1": [
+        {
+            "imgPath": "/pants_1.png",
+            brand: "Classiques Entier",
+            price: "199",
+        },
+        {
+            "imgPath": "/tops_similar_1.png",
+            brand: "rag & bone/JEAN",
+            price: "130",
+        },
+        {
+            "imgPath": "/shoes_similar_1.png",
+            brand: "Steve Madden",
+            price: "98",
+        },
+    ],
+    "pants2": [
+        {
+            "imgPath": "/pants_2.png",
+            brand: "NYDJ",
+            price: "68",
+        },
+        {
+            "imgPath": "/sweaters_similar_4.png",
+            brand: "Vince Camuto",
+            price: "99",
+        },
+        {
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ],
+    "pants3": [
+        {
+            "imgPath": "/pants_3.png",
+            brand: "Eileen Fisher",
+            price: "258",
+        },
+        {
+            "imgPath": "/tops_similar_3.png",
+            brand: "Vince Camuto",
+            price: "65",
+        },
+        {
+            "imgPath": "/shoes_similar_5.png",
+            brand: "Tory Burch",
+            price: "225",
+        },
+    ],
+    "pants4": [
+        {
+            "imgPath": "/pants_4.png",
+            brand: "NYDJ",
+            price: "114",
+        },
+        {
+            "imgPath": "/tops_similar_4.png",
+            brand: "Halogen",
+            price: "39",
+        },
+    ],
+    "pants5": [
+        {
+            "imgPath": "/pants_5.png",
+            brand: "Trouvé",
+            price: "79",
+        },
+        {
+            "imgPath": "/sweaters_similar_5.png",
+            brand: "Halogen",
+            price: "79",
+        },
+        {
+            "imgPath": "/shoes_similar_3.png",
+            brand: "Stuart Weitzman",
+            price: "798",
+        },
+    ],
+    "sweaters1": [
+        {
+            "imgPath": "/sweaters_1.png",
+            brand: "Halogen",
+            price: "89",
+        },
+        {
+            "imgPath": "/jeans_similar_1.png",
+            brand: "BLANKNYC",
+            price: "88",
+        },
+        {
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ],
+    "sweaters2": [
+        {
+            "imgPath": "/sweaters_2.png",
+            brand: "Bobeau",
+            price: "58",
+        },
+        {
+            "imgPath": "/jeans_similar_4.png",
+            brand: "Wit & Wisdom",
+            price: "68",
+        },
+        {
+            "imgPath": "/shoes_similar_3.png",
+            brand: "Stuart Weitzman",
+            price: "798",
+        },
+    ],
+    "sweaters3": [
+        {
+            "imgPath": "/sweaters_3.png",
+            brand: "Treasure&Bond",
+            price: "69",
+        },
+        {
+            "imgPath": "/jeans_similar_2.png",
+            brand: "Paige",
+            price: "239",
+        },
+        {
+            "imgPath": "/shoes_similar_4.png",
+            brand: "adidas",
+            price: "84",
+        },
+    ],
+    "sweaters4": [
+        {
+            "imgPath": "/sweaters_4.png",
+            brand: "Vince",
+            price: "345",
+        },
+        {
+            "imgPath": "/jeans_similar_1.png",
+            brand: "BLANKNYC",
+            price: "88",
+        },
+        {
+            "imgPath": "/shoes_similar_5.png",
+            brand: "Tory Burch",
+            price: "225",
+        },
+    ],
+    "sweaters5": [
+        {
+            "imgPath": "/sweaters_5.png",
+            brand: "Madewell",
+            price: "171",
+        },
+        {
+            "imgPath": "/jeans_5.png",
+            brand: "J Brand",
+            price: "228",
+        },
+        {
+            "imgPath": "/shoes_similar_2.png",
+            brand: "Dolce Vita",
+            price: "122",
+        },
+    ]
+
+}
+
+var wOutfitFill = [
+     [
+        {
+            imgPath: "/random_tops_1.png",
+            brand: "Halogen",
+            price: "39",
+        },
+        {
+            imgPath: "/random_bottoms_1.png",
+            brand: "Paige",
+            price: "239",
+        },
+        {
+            imgPath: "/random_shoes_1.png",
+            brand: "MICHAEL Michael Kors",
+            price: "78",
+        },
+    ],
+   [
+        {
+            imgPath: "/random_tops_2.png",
+            brand: "Joie",
+            price: "348",
+        },
+        {
+            imgPath: "/random_bottoms_2.png",
+            brand: "NYDJ",
+            price: "148",
+        },
+        {
+            imgPath: "/random_shoes_2.png",
+            brand: "Seychelles",
+            price: "159",
+        },
+    ],
+     [
+        {
+            imgPath: "/random_tops_3.png",
+            brand: "Equipment",
+            price: "268",
+        },
+        {
+            imgPath: "/random_bottoms_3.png",
+            brand: "James Perse",
+            price: "195",
+        },
+        {
+            imgPath: "/random_shoes_3.png",
+            brand: "BP.",
+            price: "49",
+        },
+    ],
+    [
+        {
+            imgPath: "/random_tops_4.png",
+            brand: "Classiques Entier",
+            price: "169",
+        },
+        {
+            imgPath: "/random_bottoms_4.png",
+            brand: "7 For All Mankind",
+            price: "174",
+        },
+        {
+            imgPath: "/random_shoes_4.png",
+            brand: "Steve Madden",
+            price: "89",
+        },
+    ],
+   [
+        {
+            imgPath: "/random_tops_5.png",
+            brand: "T by Alexander Wang",
+            price: "295",
+        },
+        {
+            imgPath: "/random_bottoms_5.png",
+            brand: "Hudson Jeans",
+            price: "195",
+        },
+        {
+            imgPath: "/random_shoes_5.png",
+            brand: "Stuart Weitzman",
+            price: "375",
+        },
+    ]
+]
+
+/////////////////////// MEN'S OUTFITS /////////////////////////////
+
+var mOutfits = {
+    "shirts1": [
+        {
+            imgPath: "/shirts_1.png",
+            brand: "Twenty",
+            price: "68",
+        },
+        {
+            imgPath: "/jeans_similar_5.png",
+            brand: "Paige Denim",
+            price: "199",
+        },
+        {
+            imgPath: "/shoes_similar_5.png",
+            brand: "John W. Nordstrom",
+            price: "185",
+        },
+    ],
+    "shirts2": [
+        {
+            imgPath: "/shirts_2.png",
+            brand: "Velvetmen",
+            price: "100",
+        },
+        {
+            imgPath: "/jeans_similar_4.png",
+            brand: "A.G.",
+            price: "188",
+        },
+        {
+            imgPath: "/shoes_similar_1.png",
+            brand: "To Boot",
+            price: "398",
+        },
+    ],
+    "shirts3": [
+        {
+            imgPath: "/shirts_3.png",
+            brand: "Eton",
+            price: "265",
+        },
+        {
+            imgPath: "/sweaters_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "158",
+        },
+        {
+            imgPath: "/jeans_similar_4.png",
+            brand: "A.G.",
+            price: "188",
+        },
+        {
+            imgPath: "/shoes_similar_4.png",
+            brand: "To Boot",
+            price: "395",
+        },
+    ],
+    "shirts4": [
+        {
+            imgPath: "/shirts_4.png",
+            brand: "Jeremy Argyle",
+            price: "148",
+        },
+        {
+            imgPath: "/jeans_similar_3.png",
+            brand: "Paige Denim",
+            price: "209",
+        },
+        {
+            imgPath: "/shoes_similar_3.png",
+            brand: "J Shoes",
+            price: "191",
+        },
+    ],
+    "shirts5": [
+        {
+            imgPath: "/shirts_5.png",
+            brand: "Onassis",
+            price: "78",
+        },
+        {
+            imgPath: "/jeans_similar_2.png",
+            brand: "J Brand",
+            price: "218",
+        },
+        {
+            imgPath: "/belts_5.png",
+            brand: "Trafalgar",
+            price: "65",
+        },
+    ],
+    "jeans1": [
+        {
+            imgPath: "/jeans_1.png",
+            brand: "A.G.",
+            price: "225",
+        },
+        {
+            imgPath: "/shirts_similar_2.png",
+            brand: "Velvetmen",
+            price: "100",
+        },
+        {
+            imgPath: "/shoes_similar_3.png",
+            brand: "J Shoes",
+            price: "191",
+        },
+    ],
+    "jeans2": [
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/sweaters_similar_5.png",
+            brand: "Life After Denim",
+            price: "121",
+        },
+        {
+            imgPath: "/sportcoats_3.png",
+            brand: "JKT",
+            price: "398",
+        },
+        {
+            imgPath: "/shoes_similar_4.png",
+            brand: "To Boot",
+            price: "395",
+        },
+    ],
+    "jeans3": [
+        {
+            imgPath: "/jeans_3.png",
+            brand: "Rag & Bone",
+            price: "225",
+        },
+        {
+            imgPath: "/sweaters_similar_2.png",
+            brand: "Men's Shop",
+            price: "160",
+        },
+        {
+            imgPath: "/shoes_similar_3.png",
+            brand: "J Shoes",
+            price: "191",
+        },
+    ],
+    "jeans4": [
+        {
+            imgPath: "/jeans_4.png",
+            brand: "Paige Denim",
+            price: "189",
+        },
+        {
+            imgPath: "/sweaters_similar_1.png",
+            brand: "Ben Sherman",
+            price: "109",
+        },
+        {
+            imgPath: "/sportcoats_2.png",
+            brand: "J.Lindeberg",
+            price: "540",
+        },
+    ],
+    "jeans5": [
+        {
+            imgPath: "/jeans_5.png",
+            brand: "Paige Denim",
+            price: "199",
+        },
+        {
+            imgPath: "/sweaters_similar_3.png",
+            brand: "Velvetmen",
+            price: "125",
+        },
+        {
+            imgPath: "/belts_4.png",
+            brand: "DIBI",
+            price: "36",
+        },
+    ],
+    "sportcoats1": [
+        {
+            imgPath: "/sportcoats_1.png",
+            brand: "Theory",
+            price: "545",
+        },
+        {
+            imgPath: "/shirts_similar_1.png",
+            brand: "Goodlife",
+            price: "65",
+        },
+        {
+            imgPath: "/jeans_4.png",
+            brand: "Paige Denim",
+            price: "189",
+        },
+        {
+            imgPath: "/shoes_4.png",
+            brand: "H by Hudson",
+            price: "275",
+        },
+    ],
+    "sportcoats2": [
+        {
+            imgPath: "/sportcoats_2.png",
+            brand: "J.Lindeberg",
+            price: "540",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/shirts_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "148",
+        },
+    ],
+    "sportcoats3": [
+        {
+            imgPath: "/sportcoats_3.png",
+            brand: "JKT",
+            price: "398",
+        },
+        {
+            imgPath: "/shirts_similar_3.png",
+            brand: "Hamilton shirts",
+            price: "225",
+        },
+        {
+            imgPath: "/jeans_similar_1.png",
+            brand: "A.G.",
+            price: "198",
+        },
+        {
+            imgPath: "/shoes_similar_5.png",
+            brand: "John W. Nordstrom",
+            price: "185",
+        },
+    ],
+    "sportcoats4": [
+        {
+            imgPath: "/sportcoats_4.png",
+            brand: "Todd Snyder",
+            price: "525",
+        },
+        {
+            imgPath: "/shirts_similar_3.png",
+            brand: "Hamilton shirts",
+            price: "225",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/shoes_4.png",
+            brand: "H by Hudson",
+            price: "275",
+        },
+    ],
+    "sportcoats5": [
+        {
+            imgPath: "/sportcoats_5.png",
+            brand: "Sand",
+            price: "625",
+        },
+        {
+            imgPath: "/sweaters_similar_1.png",
+            brand: "Ben Sherman",
+            price: "109",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/shoes_similar_2.png",
+            brand: "Cole Haan",
+            price: "198",
+        },
+    ],
+    "shoes1": [
+        {
+            imgPath: "/shoes_1.png",
+            brand: "To Boot",
+            price: "450",
+        },
+        {
+            imgPath: "/jeans_similar_1.png",
+            brand: "A.G.",
+            price: "198",
+        },
+        {
+            imgPath: "/sweaters_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "158",
+        },
+    ],
+    "shoes2": [
+        {
+            imgPath: "/shoes_2.png",
+            brand: "Walk-Over Shoes",
+            price: "260",
+        },
+        {
+            imgPath: "/shirts_similar_3.png",
+            brand: "Hamilton shirts",
+            price: "225",
+        },
+        {
+            imgPath: "/jeans_1.png",
+            brand: "A.G.",
+            price: "225",
+        },
+    ],
+    "shoes3": [
+        {
+            imgPath: "/shoes_3.png",
+            brand: "J Shoes",
+            price: "214",
+        },
+        {
+            imgPath: "/jeans_similar_5.png",
+            brand: "Paige Denim",
+            price: "199",
+        },
+        {
+            imgPath: "/sweaters_similar_3.png",
+            brand: "Velvetmen",
+            price: "125",
+        },
+    ],
+    "shoes4": [
+        {
+            imgPath: "/shoes_4.png",
+            brand: "H by Hudson",
+            price: "275",
+        },
+        {
+            imgPath: "/shirts_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "148",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+    ],
+    "shoes5": [
+        {
+            imgPath: "/shoes_5.png",
+            brand: "Monte Rosso",
+            price: "350",
+        },
+        {
+            imgPath: "/shirts_similar_2.png",
+            brand: "Velvetmen",
+            price: "100",
+        },
+        {
+            imgPath: "/jeans_4.png",
+            brand: "Paige Denim",
+            price: "189",
+        },
+    ],
+    "belts1": [
+        {
+            imgPath: "/belts_1.png",
+            brand: "Themata",
+            price: "155",
+        },
+        {
+            imgPath: "/sweaters_similar_5.png",
+            brand: "Life After Denim",
+            price: "121",
+        },
+        {
+            imgPath: "/jeans_similar_1.png",
+            brand: "A.G.",
+            price: "198",
+        },
+        {
+            imgPath: "/shoes_similar_2.png",
+            brand: "Cole Haan",
+            price: "198",
+        },
+    ],
+    "belts2": [
+        {
+            imgPath: "/belts_2.png",
+            brand: "W. Kleinberg",
+            price: "145",
+        },
+        {
+            imgPath: "/sweaters_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "158",
+        },
+        {
+            imgPath: "/jeans_similar_2.png",
+            brand: "J Brand",
+            price: "218",
+        },
+    ],
+    "belts3": [
+        {
+            imgPath: "/belts_3.png",
+            brand: "To Boot",
+            price: "150",
+        },
+        {
+            imgPath: "/shirts_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "148",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/shoes_4.png",
+            brand: "H by Hudson",
+            price: "275",
+        },
+    ],
+    "belts4": [
+        {
+            imgPath: "/belts_4.png",
+            brand: "DIBI",
+            price: "36",
+        },
+        {
+            imgPath: "/shirts_similar_1.png",
+            brand: "Goodlife",
+            price: "65",
+        },
+        {
+            imgPath: "/jeans_similar_3.png",
+            brand: "Paige Denim",
+            price: "209",
+        },
+    ],
+    "belts5": [
+        {
+            imgPath: "/belts_5.png",
+            brand: "Trafalgar",
+            price: "65",
+        },
+        {
+            imgPath: "/shirts_similar_2.png",
+            brand: "Velvetmen",
+            price: "100",
+        },
+        {
+            imgPath: "/jeans_similar_2.png",
+            brand: "J Brand",
+            price: "218",
+        },
+    ],
+    "sweaters1": [
+        {
+            imgPath: "/sweaters_1.png",
+            brand: "RVYC",
+            price: "175",
+        },
+        {
+            imgPath: "/shirts_similar_4.png",
+            brand: "Jeremy Argyle",
+            price: "148",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/shoes_4.png",
+            brand: "H by Hudson",
+            price: "275",
+        },
+    ],
+    "sweaters2": [
+        {
+            imgPath: "/sweaters_2.png",
+            brand: "Jeremy Argyle",
+            price: "178",
+        },
+        {
+            imgPath: "/jeans_similar_1.png",
+            brand: "A.G.",
+            price: "198",
+        },
+        {
+            imgPath: "/shoes_similar_5.png",
+            brand: "John W. Nordstrom",
+            price: "185",
+        },
+    ],
+    "sweaters3": [
+        {
+            imgPath: "/sweaters_3.png",
+            brand: "Life After Denim",
+            price: "278",
+        },
+        {
+            imgPath: "/shirts_similar_1.png",
+            brand: "Goodlife",
+            price: "65",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+    ],
+    "sweaters4": [
+        {
+            imgPath: "/sweaters_4.png",
+            brand: "Ledbury",
+            price: "149",
+        },
+        {
+            imgPath: "/sportcoats_5.png",
+            brand: "Sand",
+            price: "625",
+        },
+        {
+            imgPath: "/jeans_2.png",
+            brand: "DL1961",
+            price: "168",
+        },
+        {
+            imgPath: "/shoes_similar_2.png",
+            brand: "Cole Haan",
+            price: "198",
+        },
+    ],
+    "sweaters5": [
+        {
+            imgPath: "/sweaters_5.png",
+            brand: "Splendid Mills",
+            price: "138",
+        },
+        {
+            imgPath: "/jeans_similar_1.png",
+            brand: "A.G.",
+            price: "198",
+        },
+        {
+            imgPath: "/shoes_similar_1.png",
+            brand: "To Boot",
+            price: "398",
+        },
+    ]
+
+}
+
+var mOutfitFill = [
+     [
+        {
+            imgPath: "/random_shirts_1.png",
+            brand: "Vince",
+            price: "88",
+        },
+        {
+            imgPath: "/random_bottoms_1.png",
+            brand: "Penguin",
+            price: "89",
+        },
+        {
+            imgPath: "/random_shoes_1.png",
+            brand: "Seavees",
+            price: "78",
+        },
+    ],
+   [
+        {
+            imgPath: "/random_shirts_2.png",
+            brand: "Velvetmen",
+            price: "130",
+        },
+        {
+            imgPath: "/random_bottoms_2.png",
+            brand: "A.G.",
+            price: "225",
+        },
+        {
+            imgPath: "/random_shoes_2.png",
+            brand: "Pointer",
+            price: "100",
+        },
+    ],
+     [
+        {
+            imgPath: "/random_shirts_3.png",
+            brand: "Ted Baker London",
+            price: "239",
+        },
+        {
+            imgPath: "/random_bottoms_3.png",
+            brand: "Rag & Bone",
+            price: "210",
+        },
+        {
+            imgPath: "/random_shoes_3.png",
+            brand: "Fratelli Rossetti",
+            price: "560",
+        },
+    ],
+    [
+        {
+            imgPath: "/random_shirts_4.png",
+            brand: "Jeremy Argyle",
+            price: "158",
+        },
+        {
+            imgPath: "/random_bottoms_4.png",
+            brand: "Paige Denim",
+            price: "199",
+        },
+        {
+            imgPath: "/random_shoes_4.png",
+            brand: "Tretorn",
+            price: "65",
+        },
+    ],
+   [
+        {
+            imgPath: "/random_shirts_5.png",
+            brand: "J Press",
+            price: "58",
+        },
+        {
+            imgPath: "/random_bottoms_5.png",
+            brand: "Fidelity",
+            price: "198",
+        },
+        {
+            imgPath: "/random_shoes_5.png",
+            brand: "H by Hudson",
+            price: "225",
+        },
+    ]
+]

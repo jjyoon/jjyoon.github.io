@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Arrow R</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.304279384">
+        <g id="Request-Trunk-Form---Choose-Trunk-Type" transform="translate(-328.000000, -320.000000)" fill="#231F1F">
+            <g id="Group-13" transform="translate(11.000000, 194.000000)">
+                <g id="Group-11" transform="translate(22.000000, 117.000000)">
+                    <g id="Icon-/-Arrow-R" transform="translate(295.000000, 9.000000)">
+                        <path d="M0.555555556,16 C0.413333333,16 0.271111111,15.9477333 0.162222222,15.8442667 C-0.0544444444,15.6352 -0.0544444444,15.2981333 0.162222222,15.0890667 L7.54777778,8 L0.162222222,0.910933333 C-0.0544444444,0.701866667 -0.0544444444,0.3648 0.162222222,0.155733333 C0.38,-0.0522666667 0.731111111,-0.0522666667 0.948888889,0.155733333 L9.11888889,8 L0.948888889,15.8442667 C0.84,15.9477333 0.697777778,16 0.555555556,16" id="Fill-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

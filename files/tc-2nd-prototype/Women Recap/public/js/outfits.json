@@ -1,0 +1,64 @@
+let outfitItems = {
+  "ids": {
+    "1": {
+      "id": 1,
+      "brand": "Trouvé",
+      "price": "$69",
+      "imgPath": "top1",
+    },
+    "2": {
+      "id": 2,
+      "brand": "KUT from the Kloth",
+      "price": "$89",
+      "imgPath": "bottom1",
+    },
+    "3": {
+      "id": 3,
+      "brand": "Sam Edelman",
+      "price": "$119.95",
+      "imgPath": "shoe1",
+    },
+    "4": {
+      "id": 4,
+      "brand": "Madewell",
+      "price": "$19.50",
+      "imgPath": "top2",
+    },
+    "5": {
+      "id": 5,
+      "brand": "Wit & Wisdom",
+      "price": "$64",
+      "imgPath": "bottom2",
+    },
+    "6": {
+      "id": 6,
+      "brand": "MARC FISHER LTD",
+      "price": "$228.95",
+      "imgPath": "shoe2",
+    },
+    "7": {
+      "id": 7,
+      "brand": "Madewell",
+      "price": "$168",
+      "imgPath": "bag2",
+    },
+    "8": {
+      "id": 8,
+      "brand": "J.Crew",
+      "price": "$39.50",
+      "imgPath": "top3",
+    },
+    "9": {
+      "id": 9,
+      "brand": "rag & bone",
+      "price": "$295",
+      "imgPath": "bottom3",
+    },
+    "10": {
+      "id": 10,
+      "brand": "Vince Shoes",
+      "price": "$195",
+      "imgPath": "shoe3",
+    },
+  }
+}

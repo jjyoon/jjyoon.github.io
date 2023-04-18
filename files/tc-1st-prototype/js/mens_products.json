@@ -1,0 +1,331 @@
+var mshirts = [
+  {
+    imgPath: "/shirts_1.png",
+    brand: "Twenty",
+    price: "68",
+    id: 1
+  },
+  {
+    imgPath: "/shirts_2.png",
+    brand: "Velvetmen",
+    price: "100",
+    id: 2
+  },
+  {
+    imgPath: "/shirts_3.png",
+    brand: "Eton",
+    price: "265",
+    id: 3
+  },
+  {
+    imgPath: "/shirts_4.png",
+    brand: "Jeremy Argyle",
+    price: "148",
+    id: 4
+  },
+  {
+    imgPath: "/shirts_5.png",
+    brand: "Onassis",
+    price: "78",
+    id: 5
+  }
+]
+
+var mshirts_similar = [
+  {
+    imgPath: "/shirts_similar_1.png",
+    brand: "Goodlife",
+    price: "65",
+    similarId: 1
+  },
+  {
+    imgPath: "/shirts_similar_2.png",
+    brand: "Velvetmen",
+    price: "100",
+    similarId: 2
+  },
+  {
+    imgPath: "/shirts_similar_3.png",
+    brand: "Hamilton shirts",
+    price: "225",
+    similarId: 3
+  },
+  {
+    imgPath: "/shirts_similar_4.png",
+    brand: "Jeremy Argyle",
+    price: "148",
+    similarId: 4
+  },
+  {
+    imgPath: "/shirts_similar_5.png",
+    brand: "Velvetmen",
+    price: "100",
+    similarId: 5
+  }
+]
+
+
+var mjeans = [
+  {
+    imgPath: "/jeans_1.png",
+    brand: "A.G.",
+    price: "225",
+    id: 1
+  },
+  {
+    imgPath: "/jeans_2.png",
+    brand: "DL1961",
+    price: "168",
+    id: 2
+  },
+  {
+    imgPath: "/jeans_3.png",
+    brand: "Rag & Bone",
+    price: "225",
+    id: 3
+  },
+  {
+    imgPath: "/jeans_4.png",
+    brand: "Paige Denim",
+    price: "189",
+    id: 4
+  },
+  {
+    imgPath: "/jeans_5.png",
+    brand: "Paige Denim",
+    price: "199",
+    id: 5
+  }
+]
+
+var mjeans_similar = [
+  {
+    imgPath: "/jeans_similar_1.png",
+    brand: "A.G.",
+    price: "198",
+    similarId: 1
+  },
+  {
+    imgPath: "/jeans_similar_2.png",
+    brand: "J Brand",
+    price: "218",
+    similarId: 2
+  },
+  {
+    imgPath: "/jeans_similar_3.png",
+    brand: "Paige Denim",
+    price: "209",
+    similarId: 3
+  },
+  {
+    imgPath: "/jeans_similar_4.png",
+    brand: "A.G.",
+    price: "188",
+    similarId: 4
+  },
+  {
+    imgPath: "/jeans_similar_5.png",
+    brand: "Paige Denim",
+    price: "199",
+    similarId: 5
+  }
+]
+
+
+var mshoes = [
+  {
+    imgPath: "/shoes_1.png",
+    brand: "To Boot",
+    price: "450",
+    id: 1
+  },
+  {
+    imgPath: "/shoes_2.png",
+    brand: "Walk-Over Shoes",
+    price: "260",
+    id: 2
+  },
+  {
+    imgPath: "/shoes_3.png",
+    brand: "J Shoes",
+    price: "214",
+    id: 3
+  },
+  {
+    imgPath: "/shoes_4.png",
+    brand: "H by Hudson",
+    price: "275",
+    id: 4
+  },
+  {
+    imgPath: "/shoes_5.png",
+    brand: "Monte Rosso",
+    price: "350",
+    id: 5
+  }
+]
+
+var mshoes_similar = [
+  {
+    imgPath: "/shoes_similar_1.png",
+    brand: "To Boot",
+    price: "398",
+    similarId: 1
+  },
+  {
+    imgPath: "/shoes_similar_2.png",
+    brand: "Cole Haan",
+    price: "198",
+    similarId: 2
+  },
+  {
+    imgPath: "/shoes_similar_3.png",
+    brand: "J Shoes",
+    price: "191",
+    similarId: 3
+  },
+  {
+    imgPath: "/shoes_similar_4.png",
+    brand: "To Boot",
+    price: "395",
+    similarId: 4
+  },
+  {
+    imgPath: "/shoes_similar_5.png",
+    brand: "John W. Nordstrom",
+    price: "185",
+    similarId: 5
+  }
+]
+
+var msportcoats = [
+  {
+    imgPath: "/sportcoats_1.png",
+    brand: "Theory",
+    price: "545",
+    id: 1
+  },
+  {
+    imgPath: "/sportcoats_2.png",
+    brand: "J.Lindeberg",
+    price: "540",
+    id: 2
+  },
+  {
+    imgPath: "/sportcoats_3.png",
+    brand: "JKT",
+    price: "398",
+    id: 3
+  },
+  {
+    imgPath: "/sportcoats_4.png",
+    brand: "Todd Snyder",
+    price: "525",
+    id: 4
+  },  
+  {
+    imgPath: "/sportcoats_5.png",
+    brand: "Sand",
+    price: "625",
+    id: 5
+  }
+]
+
+var msweaters = [
+  {
+    imgPath: "/sweaters_1.png",
+    brand: "RVYC",
+    price: "175",
+    id: 1
+  },
+  {
+    imgPath: "/sweaters_2.png",
+    brand: "Jeremy Argyle",
+    price: "178",
+    id: 2
+  },
+  {
+    imgPath: "/sweaters_3.png",
+    brand: "Life After Denim",
+    price: "278",
+    id: 3
+  },
+  {
+    imgPath: "/sweaters_4.png",
+    brand: "Ledbury",
+    price: "149",
+    id: 4
+  },  
+  {
+    imgPath: "/sweaters_5.png",
+    brand: "Splendid Mills",
+    price: "138",
+    id: 5
+  }
+]
+
+var msweaters_similar = [
+  {
+    imgPath: "/sweaters_similar_1.png",
+    brand: "Ben Sherman",
+    price: "109",
+    similarId: 1
+  },
+  {
+    imgPath: "/sweaters_similar_2.png",
+    brand: "Men's Shop",
+    price: "160",
+    similarId: 2
+  },
+  {
+    imgPath: "/sweaters_similar_3.png",
+    brand: "Velvetmen",
+    price: "125",
+    similarId: 3
+  },
+  {
+    imgPath: "/sweaters_similar_4.png",
+    brand: "Jeremy Argyle",
+    price: "158",
+    similarId: 4
+  },  
+  {
+    imgPath: "/sweaters_similar_5.png",
+    brand: "Life After Denim",
+    price: "121",
+    similarId: 5
+  }
+]
+
+var mbelts = [
+  {
+    imgPath: "/belts_1.png",
+    brand: "Themata",
+    price: "155",
+    id: 1
+  },
+  {
+    imgPath: "/belts_2.png",
+    brand: "W. Kleinberg",
+    price: "145",
+    id: 2
+  },
+  {
+    imgPath: "/belts_3.png",
+    brand: "To Boot",
+    price: "150",
+    id: 3
+  },
+  {
+    imgPath: "/belts_4.png",
+    brand: "DIBI",
+    price: "36",
+    id: 4
+  },  
+  {
+    imgPath: "/belts_5.png",
+    brand: "Trafalgar",
+    price: "65",
+    id: 5
+  }
+]

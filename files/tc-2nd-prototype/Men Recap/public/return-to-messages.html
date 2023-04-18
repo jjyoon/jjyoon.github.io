@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Messenger</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/customerName.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="ThreadView">
+      <header class="GlobalNav">
+        <nav class="GlobalNav-inner">
+          <ul class="GlobalNav-navList">
+            <li class="GlobalNav-mobileNavItem">
+              <a href="" class="GlobalNav-iconLink">
+                <figure class="GlobalNav-iconContent">
+                  <img src="img/discover-icon.svg" alt="" class="GlobalNav-icon">
+                  <figcaption class="GlobalNav-iconText">Discover</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="GlobalNav-mobileNavItem">
+              <a href="" class="GlobalNav-iconLink is-active">
+                <figure class="GlobalNav-iconContent">
+                  <img src="img/messages-icon.svg" alt="" class="GlobalNav-icon">
+                  <figcaption class="GlobalNav-iconText">Messages</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="GlobalNav-mobileNavItem">
+              <a href="" class="GlobalNav-iconLink">
+                <figure class="GlobalNav-iconContent">
+                  <img src="img/me-icon.svg" alt="" class="GlobalNav-icon">
+                  <figcaption class="GlobalNav-iconText">Me</figcaption>
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="AlertBar-container" onclick="location.href='trunk-preview.html'">
+        Your trunk is being prepared
+        <div class="AlertBar-right-icon">
+          <img src="img/white-arrow-right.svg" alt="">
+        </div>
+      </div>
+      <div class="MessageLog ThreadView-body">
+        <div class="MessageLog-Messages">
+          <!-- typing indicator -->
+          <div class="Message" data="1">
+            <div class="Message-icon">
+              <div class="Message-icon">
+                <div class="Message-iconImage"></div>
+              </div>
+            </div>
+            <div class="Message-parts">
+              <div class="Message-partHeader"><strong>Ashley</strong><small>Today</small></div>
+              <div class="Message-part"><span>Hi <span class="customerName"><script>$(".Message[data='1'] .customerName").html(customerName)</script></span>! I'm your stylist, Ashley. Your style profile looks awesome, thanks for filling that out.</span></div>
+            </div>
+          </div>
+          <!-- starter trunk card -->
+          <div class="Message" data="2">
+            <div class="Message-icon" style="opacity: 0;">
+              <div class="Message-icon">
+                <div class="Message-iconImage"></div>
+              </div>
+            </div>
+            <div class="Message-parts">
+              <div class="Message-part">
+                <span>Here are a few outfits I would love your feedback on. Give them a look and we'll begin creating your first trunk!</span>
+              </div>
+              <div class="Message-part">
+                <div class="starter-trunk-card">
+                  <a href="curated-outfits.html" class="starter-trunk-card__link">
+                    <div class="starter-trunk-card__products">
+                      <div class="starter-trunk-product__container">
+                        <img src="img/outfits/top1.png" alt="" class="starter-trunk-product__image">
+                      </div>
+                      <div class="starter-trunk-product__container">
+                        <img src="img/outfits/bottom1.png" alt="" class="starter-trunk-product__image">
+                      </div>
+                      <div class="starter-trunk-product__container">
+                        <img src="img/outfits/shoe1.png" alt="" class="starter-trunk-product__image">
+                      </div>
+                      <div class="starter-trunk-product__container">
+                        <img src="img/outfits/top2.png" alt="" class="starter-trunk-product__image">
+                      </div>
+                    </div>
+                    <div class="starter-trunk-card__button">View your outfits</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- system notification -->
+          <div class="Message" data="3">
+            <div class="Message-icon" style="opacity: 0;">
+              <div class="Message-icon">
+                <div class="Message-iconImage"></div>
+              </div>
+            </div>
+            <div class="Message-parts">
+              <div class="Message-part">
+                <div class="Message-system">
+                  <div class="Message-systemTitle">You added 4 items to try on</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="Message" data="4">
+            <div class="Message-icon">
+              <div class="Message-icon">
+                <div class="Message-iconImage"></div>
+              </div>
+            </div>
+            <div class="Message-parts">
+              <div class="Message-partHeader"><strong>Ashley</strong><small><script>$(".Message[data='4'] .Message-partHeader small").html(moment().format("h:mm a"));</script></small>
+              </div>
+              <div class="Message-part"><span>Thanks, <span class="customerName"><script>$(".Message[data='4'] .customerName").html(customerName)</script></span>. Your feedback is a big help.  Is there anything specific you would like to see in your first trunk?  Or, any upcoming events you'll be dressing for? </span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="MessageBar">
+        <form action="">
+          <textarea name="" id="" placeholder="Message Ashley" class="MessageBar-input"></textarea>
+          <input type="submit" value="Send" class="MessageBar-send">
+        </form>
+        <div class="AppIntegrations">
+          <ul class="AppIntegrations-list">
+            <li class="AppIntegrations-item" data-key="trunk-request">
+              <img src="img/trunk-icon.svg" alt="" class="AppIntegrations-icon">
+            </li>
+            <li class="AppIntegrations-item">
+              <img src="img/pinterest-icon.svg" alt="" class="AppIntegrations-icon">
+            </li>
+            <li class="AppIntegrations-item">
+              <img src="img/camera-icon.svg" alt="" class="AppIntegrations-icon">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<script src="js/outfits.json"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

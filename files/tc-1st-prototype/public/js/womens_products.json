@@ -1,0 +1,364 @@
+var wtops = [
+  {
+    "imgPath": "/tops_1.png",
+    brand: "James Perse",
+    price: "135",
+    id: 1
+  },
+  {
+    "imgPath": "/tops_2.png",
+    brand: "NYDJ",
+    price: "58",
+    id: 2
+  },
+  {
+    "imgPath": "/tops_3.png",
+    brand: "MICHAEL Michael Kors",
+    price: "49",
+    id: 3
+  },
+  {
+    "imgPath": "/tops_4.png",
+    brand: "Eileen Fisher",
+    price: "98",
+    id: 4
+  },
+  {
+    "imgPath": "/tops_5.png",
+    brand: "Barbour",
+    price: "99",
+    id: 5
+  },
+]
+
+var wtops_similar = [
+  {
+    "imgPath": "/tops_similar_1.png",
+    brand: "rag & bone/JEAN",
+    price: "130",
+    similarId: 1
+  },
+  {
+    "imgPath": "/tops_similar_2.png",
+    brand: "Trouvé",
+    price: "45",
+    similarId: 2
+  },
+  {
+    "imgPath": "/tops_similar_3.png",
+    brand: "Vince Camuto",
+    price: "65",
+    similarId: 3
+  },
+  {
+    "imgPath": "/tops_similar_4.png",
+    brand: "Halogen",
+    price: "39",
+    similarId: 4
+  },
+  {
+    "imgPath": "/tops_similar_5.png",
+    brand: "Rails",
+    price: "148",
+    similarId: 5
+  }
+]
+
+var wjeans = [
+  {
+    "imgPath": "/jeans_1.png",
+    brand: "Paige",
+    price: "189",
+    id: 1
+  },
+  {
+    "imgPath": "/jeans_2.png",
+    brand: "rag & bone/JEAN",
+    price: "175",
+    id: 2
+  },
+  {
+    "imgPath": "/jeans_3.png",
+    brand: "7 For All Mankind",
+    price: "189",
+    id: 3
+  },
+  {
+    "imgPath": "/jeans_4.png",
+    brand: "DL1961",
+    price: "178",
+    id: 4
+  },
+  {
+    "imgPath": "/jeans_5.png",
+    brand: "J Brand",
+    price: "228",
+    id: 5
+  }
+]
+
+var wjeans_similar = [
+  {
+    "imgPath": "/jeans_similar_1.png",
+    brand: "BLANKNYC",
+    price: "88",
+    similarId: 1
+  },
+  {
+    "imgPath": "/jeans_similar_2.png",
+    brand: "Paige",
+    price: "239",
+    similarId: 2
+  },
+  {
+    "imgPath": "/jeans_similar_3.png",
+    brand: "Frame",
+    price: "239",
+    similarId: 3
+  },
+  {
+    "imgPath": "/jeans_similar_4.png",
+    brand: "Wit & Wisdom",
+    price: "68",
+    similarId: 4
+  },
+  {
+    "imgPath": "/jeans_similar_5.png",
+    brand: "Jen7",
+    price: "159",
+    similarId: 5
+  }
+]
+
+var wdresses = [
+  {
+    "imgPath": "/dresses_1.png",
+    brand: "French Connection",
+    price: "158",
+    id: 1
+  },
+  {
+    "imgPath": "/dresses_2.png",
+    brand: "Vince",
+    price: "395",
+    id: 2
+  },
+  {
+    "imgPath": "/dresses_3.png",
+    brand: "Eliza J",
+    price: "98",
+    id: 3
+  },
+  {
+    "imgPath": "/dresses_4.png",
+    brand: "Vince Camuto",
+    price: "88",
+    id: 4
+  },
+  {
+    "imgPath": "/dresses_5.png",
+    brand: "Adrianna Papell",
+    price: "160",
+    id: 5
+  }
+]
+
+var wdresses_similar = [
+  {
+    "imgPath": "/dresses_similar_1.png",
+    brand: "Tibi",
+    price: "298",
+    similarId: 1
+  },
+  {
+    "imgPath": "/dresses_similar_2.png",
+    brand: "Equipment",
+    price: "398",
+    similarId: 2
+  },
+  {
+    "imgPath": "/dresses_similar_3.png",
+    brand: "Eliza J",
+    price: "98",
+    similarId: 3
+  },
+  {
+    "imgPath": "/dresses_similar_4.png",
+    brand: "Vince Camuto",
+    price: "88",
+    similarId: 4
+  },
+  {
+    "imgPath": "/dresses_similar_5.png",
+    brand: "Adrianna Papell",
+    price: "178",
+    similarId: 5
+  }
+    ]
+
+
+var wshoes = [
+  {
+    "imgPath": "/shoes_1.png",
+    brand: "Sole Society",
+    price: "69",
+    id: 1
+  },
+  {
+    "imgPath": "/shoes_2.png",
+    brand: "MICHAEL Michael Kors",
+    price: "184",
+    id: 2
+  },
+  {
+    "imgPath": "/shoes_3.png",
+    brand: "Marc Fisher LTD",
+    price: "228",
+    id: 3
+  },
+  {
+    "imgPath": "/shoes_4.png",
+    brand: "adidas",
+    price: "79",
+    id: 4
+  },
+  {
+    "imgPath": "/shoes_5.png",
+    brand: "Tory Burch",
+    price: "225",
+    id: 5
+  }
+]
+
+var wshoes_similar = [
+  {
+    "imgPath": "/shoes_similar_1.png",
+    brand: "Steve Madden",
+    price: "98",
+    similarId: 1
+  },
+  {
+    "imgPath": "/shoes_similar_2.png",
+    brand: "Dolce Vita",
+    price: "122",
+    similarId: 2
+  },
+  {
+    "imgPath": "/shoes_similar_3.png",
+    brand: "Stuart Weitzman",
+    price: "798",
+    similarId: 3
+  },
+  {
+    "imgPath": "/shoes_similar_4.png",
+    brand: "adidas",
+    price: "84",
+    similarId: 4
+  },
+  {
+    "imgPath": "/shoes_similar_5.png",
+    brand: "Tory Burch",
+    price: "225",
+    similarId: 5
+  }
+]
+
+var wpants = [
+  {
+    "imgPath": "/pants_1.png",
+    brand: "Classiques Entier",
+    price: "199",
+    id: 1
+  },
+  {
+    "imgPath": "/pants_2.png",
+    brand: "NYDJ",
+    price: "68",
+    id: 2
+  },
+  {
+    "imgPath": "/pants_3.png",
+    brand: "Eileen Fisher",
+    price: "258",
+    id: 3
+  },
+  {
+    "imgPath": "/pants_4.png",
+    brand: "NYDJ",
+    price: "114",
+    id: 4
+  },  
+  {
+    "imgPath": "/pants_5.png",
+    brand: "Trouvé",
+    price: "79",
+    id: 5
+  }
+]
+
+var wsweaters = [
+  {
+    "imgPath": "/sweaters_1.png",
+    brand: "Halogen",
+    price: "89",
+    id: 1
+  },
+  {
+    "imgPath": "/sweaters_2.png",
+    brand: "Bobeau",
+    price: "58",
+    id: 2
+  },
+  {
+    "imgPath": "/sweaters_3.png",
+    brand: "Treasure&Bond",
+    price: "69",
+    id: 3
+  },
+  {
+    "imgPath": "/sweaters_4.png",
+    brand: "Vince",
+    price: "345",
+    id: 4
+  },  
+  {
+    "imgPath": "/sweaters_5.png",
+    brand: "Madewell",
+    price: "171",
+    id: 5
+  }
+]
+
+var wsweaters_similar = [
+  {
+    "imgPath": "/sweaters_similar_1.png",
+    brand: "Joie",
+    price: "298",
+    similarId: 1
+  },
+  {
+    "imgPath": "/sweaters_similar_2.png",
+    brand: "Bobeau",
+    price: "58",
+    similarId: 2
+  },
+  {
+    "imgPath": "/sweaters_similar_3.png",
+    brand: "Caslon",
+    price: "49",
+    similarId: 3
+  },
+  {
+    "imgPath": "/sweaters_similar_4.png",
+    brand: "Vince Camuto",
+    price: "99",
+    similarId: 4
+  },  
+  {
+    "imgPath": "/sweaters_similar_5.png",
+    brand: "Halogen",
+    price: "79",
+    similarId: 5
+  }
+]
+

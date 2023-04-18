@@ -1,0 +1,64 @@
+let outfitItems = {
+  "ids": {
+    "1": {
+      "id": 1,
+      "brand": "Peter Millar",
+      "price": "$89",
+      "imgPath": "top1",
+    },
+    "2": {
+      "id": 2,
+      "brand": "Paige Denim",
+      "price": "$185",
+      "imgPath": "bottom1",
+    },
+    "3": {
+      "id": 3,
+      "brand": "JACK ERWIN",
+      "price": "$175",
+      "imgPath": "shoe1",
+    },
+    "4": {
+      "id": 4,
+      "brand": "Gant",
+      "price": "$98.50",
+      "imgPath": "top2",
+    },
+    "5": {
+      "id": 5,
+      "brand": "AG",
+      "price": "$168",
+      "imgPath": "bottom2",
+    },
+    "6": {
+      "id": 6,
+      "brand": "Trafalgar",
+      "price": "$65",
+      "imgPath": "belt2",
+    },
+    "7": {
+      "id": 7,
+      "brand": "John W. Nordstrom",
+      "price": "$198",
+      "imgPath": "shoe2",
+    },
+    "8": {
+      "id": 8,
+      "brand": "Theory",
+      "price": "$170",
+      "imgPath": "top3",
+    },
+    "9": {
+      "id": 9,
+      "brand": "AG",
+      "price": "$125",
+      "imgPath": "bottom3",
+    },
+    "10": {
+      "id": 10,
+      "brand": "Hari Mari",
+      "price": "$65",
+      "imgPath": "shoe3",
+    },
+  }
+}

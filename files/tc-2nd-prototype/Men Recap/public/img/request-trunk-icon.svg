@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="30px" viewBox="0 0 43 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Request-Trunk---Form-with-message-preview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" fill="#B77D64">
+            <text id="→" font-family="LucidaGrande, Lucida Grande" font-size="30" font-weight="normal">
+                <tspan x="16" y="29">→</tspan>
+            </text>
+            <g id="Icon-/-Trunk">
+                <path d="M31.625,28.395 L31.625,27.7131818 L1.375,27.7131818 L1.375,5.87727273 L31.625,5.87727273 L31.625,27.7131818 L31.626375,27.7131818 L31.625,28.395 Z M16.5,1.36363636 C19.012125,1.36363636 21.30975,2.55 22.763125,4.51363636 L10.236875,4.51363636 C11.688875,2.55 13.9865,1.36363636 16.5,1.36363636 L16.5,1.36363636 Z M31.625,4.51363636 L24.391125,4.51363636 C22.749375,1.725 19.784875,0 16.5,0 C13.21375,0 10.247875,1.725 8.608875,4.51363636 L1.375,4.51363636 C0.616,4.51363636 0,5.12590909 0,5.87727273 L0,27.7131818 C0,28.4645455 0.616,29.0768182 1.375,29.0768182 L31.625,29.0768182 C32.384,29.0768182 33,28.4645455 33,27.7131818 L33,5.87727273 C33,5.12590909 32.384,4.51363636 31.625,4.51363636 L31.625,4.51363636 Z" id="Page-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
